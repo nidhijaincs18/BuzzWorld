@@ -1,0 +1,161 @@
+[{
+        "question": "How many numbers of the element in the open IoT architecture?",
+        "option1": "Four elements",
+        "option2": "Five elements",
+        "option3": "Six elements",
+        "option4": "Seven elements",
+        "answer": "Seven elements"
+    },
+    {
+        "question": "Which of the following is the way in which an IoT device is associated with data?",
+        "option1": "Internet",
+        "option2": "Cloud",
+        "option3": "Automata",
+        "option4": "Network",
+        "answer": "Cloud"
+    },
+    {
+        "question": "Which of the following IoT networks has a very short range?        ",
+        "option1": "Short Network",
+        "option2": "LPWAN",
+        "option3": "SigFox",
+        "option4": "Short-range Wireless Network",
+        "answer": "Short-range Wireless Network"
+    },
+    {
+        "question": "What is the full form of the LPWAN?",
+        "option1": "Low Protocol Wide Area Network",
+        "option2": "Low Power Wide Area Network",
+        "option3": "Long Protocol Wide Area Network",
+        "option4": "Long Power Wide Area Network",
+        "answer": "Low Power Wide Area Network"
+    },
+    {
+        "question": "An IoT network is a collection of ______ devices.",
+        "option1": "Signal",
+        "option2": "Machine to Machine",
+        "option3": "Interconnected",
+        "option4": "Network to Network",
+        "answer": "Interconnected"
+    },
+    {
+        "question": "What is the main purpose of WoT (Web of Things) in the IoT?",
+        "option1": "Improve the usability and interoperability",
+        "option2": "Reduce the security",
+        "option3": "Complex the development",
+        "option4": "Increase the cost",
+        "answer": "Improve the usability and interoperability"
+    },
+    {
+        "question": "What is the Arduino UNO?",
+        "option1": "Software",
+        "option2": "Hardware device",
+        "option3": "Network",
+        "option4": "Protocol",
+        "answer": "Hardware device"
+    },
+    {
+        "question": "______ allows the user to control electronic components.",
+        "option1": "Android API",
+        "option2": "RETful API",
+        "option3": "MQTT API",
+        "option4": "CoAP API",
+        "answer": "RETful API"
+    },
+    {
+        "question": "Which of the following is not an application of IoT?",
+        "option1": "Wearables",
+        "option2": "Smart Grid",
+        "option3": "Arduino",
+        "option4": "Smart City",
+        "answer": "Arduino"
+    },
+    {
+        "question": "What is the role of Big Data in IoT's Smart Grid architecture?",
+        "option1": "Filter the data",
+        "option2": "Locked the data",
+        "option3": "Store data",
+        "option4": "None of the these",
+        "answer": "Store data"
+    },
+    {
+        "question": "What is the full form of the MQTT?",
+        "option1": "Multi-Queue Telemetry Things",
+        "option2": "Multiple Queue Telemetry Things",
+        "option3": "Message Queue Telemetry Things",
+        "option4": "Message Queue Telemetry Transport",
+        "answer": "Message Queue Telemetry Transport"
+    },
+    {
+        "question": "What is the full form of ICT?",
+        "option1": "InterConnect Technology",
+        "option2": "Internet Connection Topology",
+        "option3": "Information and Communication Technology",
+        "option4": "Infer Communication Topology",
+        "answer": "Information and Communication Technology"
+    },
+    {
+        "question": "What is the standard port number of secure MQTT?",
+        "option1": "1883",
+        "option2": "1883",
+        "option3": "8883",
+        "option4": "8888",
+        "answer": "8883"
+    },
+    {
+        "question": "Which of the following layers provides end-to-end communication in IoT?",
+        "option1": "Logical layer",
+        "option2": "Data link layer",
+        "option3": "Transport layer",
+        "option4": "Session layer",
+        "answer": "Transport layer"
+    },
+    {
+        "question": "Which interface does the fingerprint sensor use?",
+        "option1": "UART interface",
+        "option2": "CoAP interface",
+        "option3": "SPI interface",
+        "option4": "I2P interface",
+        "answer": "UART interface"
+    },
+    {
+        "question": "What is another name for I2C?",
+        "option1": "Signal wire interface",
+        "option2": "Two wire interfaces",
+        "option3": "UART",
+        "option4": "USART",
+        "answer": "Two wire interfaces"
+    },
+    {
+        "question": "How many logic signals are there in the SPI protocol?",
+        "option1": "Five signals",
+        "option2": "Six signals",
+        "option3": "Nine signals",
+        "option4": "Zero signals",
+        "answer": "Five signals"
+    },
+    {
+        "question": "What is the range of z-wave?",
+        "option1": "30 to 100 m",
+        "option2": "300 to 1000 m",
+        "option3": "100 to 1000 m",
+        "option4": "Only 10 m",
+        "answer": "30 to 100 m"
+    },
+    {
+        "question": "Which of the following topology is used for ZigBee Smart Energy?",
+        "option1": "Bus Topology",
+        "option2": "Ring Topology",
+        "option3": "Star Topology",
+        "option4": "Any Topology",
+        "answer": "Star Topology"
+    },
+    {
+        "question": "Which of the following touch sensors is used in a cell phone?",
+        "option1": "Resistive touch sensors",
+        "option2": "Human sensor",
+        "option3": "Capacitive touch sensor",
+        "option4": "Follow sensor",
+        "answer": "Capacitive touch sensor"
+    }
+]

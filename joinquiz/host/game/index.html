@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../../../images/bw1.jpg">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+
+    <title>Join the Quiz</title>
+    <link rel="stylesheet" href="../../css/enterQuiz.css">
+    <link rel="stylesheet" href="../../css/hostGameView.css">
+</head>
+
+<body>
+    <!-- <div class="start-btn">
+        <button>Start Quiz</button>
+    </div>
+    <div class="info-box">
+        <p>Some Rules of the Quiz :</p>
+        <ul>
+            <li>1. You will only have
+                <span>20 seconds </span>for each question.</li>
+            <li>2. Once you select your answer you can't reselect.</li>
+            <li>3. You can't select any answer once timer goes off.</li>
+            <li>4. You can't exit a quiz while you're playing.</li>
+            <li>5. You'll get points on the basis of your correct answers.</li>
+        </ul>
+        <div class="buttons">
+            <button class="exit">Exit</button>
+            <button class="continue">Continue</button>
+        </div>
+    </div> -->
+    <h4 class="playersAnswer" id="playersAnswer">Players Answered: <span id="playersAnswered">0</span> </h4>
+    <div class="quiz-box" id="quizBox">
+        <div class="quiz-header">
+            <h3 id="name" class="quiz-title">Networking</h3>
+            <div class="timer">
+                <p class="timer-text">Time Left</p>
+                <p id="num" class="time">20</p>
+            </div>
+        </div>
+        <div class="quest-section">
+            <div class="ques-text">
+                <span id="question"></span>
+            </div>
+            <div class="option-list">
+                <div class="options option1">
+                    <span id="answer1" class="button"></span>
+                    <div id="icon1"></div>
+                </div>
+                <div class="options option2">
+                    <span id="answer2" class="button"></span>
+                    <div id="icon2"></div>
+                </div>
+                <div class="options option3">
+                    <span id="answer3" class="button"></span>
+                    <div id="icon3"></div>
+                </div>
+                <div class="options option4">
+                    <span id="answer4" class="button"></span>
+                    <div id="icon4"></div>
+                </div>
+            </div>
+        </div>
+        <div class="ques-footer">
+            <div class="total-ques" id="timerText">
+                <span><p id="questionnum"> </p> of <p id="totalquesnum"> 20</p> Questions</span>
+            </div>
+            <button onclick="nextQuestion()" class="next-btn" id="nextQButton">Next Question</button>
+        </div>
+
+
+    </div>
+    <div id="winners">
+        <h2 id="winnerTitle">Top 5 Players</h4>
+            <h3 id="winner1">1.</h3>
+            <h3 id="winner2">2.</h3>
+            <h3 id="winner3">3.</h3>
+            <h3 id="winner4">4.</h3>
+            <h3 id="winner5">5.</h3>
+    </div>
+    <script src="http://localhost:3000/socket.io/socket.io.js"></script>
+    <script src="../../js/libs/jqueryLibrary.js"></script>
+    <script src="../../js/libs/deparam.js"></script>
+    <script src="../../js/hostGame.js"></script>
+
+</body>
+
+</html>

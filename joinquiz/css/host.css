@@ -1,0 +1,60 @@
+body {
+    background-color: #008080;
+    color: white;
+}
+
+.main {
+    margin-top: -50px;
+    display: flex;
+    height: 90vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Raleway', sans-serif;
+}
+
+#title {
+    font-size: 2em;
+}
+
+#players {
+    text-align: center;
+    font-size: 2em;
+    resize: none;
+    outline: none;
+    padding: 15px;
+    overflow-y: auto;
+    color: #3A3B3A;
+    line-height: 30px;
+}
+
+#gamePinText {
+    margin-top: -10px;
+    color: white;
+    font-family: 'Tajawal', sans-serif;
+    font-size: 2.5em;
+}
+
+#cancel {
+    outline: none;
+    border: none;
+    background-color: #008080;
+    color: white;
+    font-size: 2.3em;
+    margin-left: 20px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+#start {
+    margin-top: 25px;
+    background-color: #3A3B3A;
+    border: none;
+    color: white;
+    padding: 15px 100px;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    font-size: 25px;
+    font-family: 'Raleway', sans-serif;
+}

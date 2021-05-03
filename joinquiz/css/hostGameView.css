@@ -1,0 +1,21 @@
+body {
+    background-color: #008080;
+}
+
+#nextQButton {
+    display: none;
+}
+
+#winners {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 2em;
+    color: white;
+    display: none;
+}
+
+#winners h3 {
+    margin: 5px;
+    font-size: 1.3em;
+    color: #3A3B3A;
+}

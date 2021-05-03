@@ -1,0 +1,200 @@
+body,
+html {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    user-select: none;
+    min-width: 530px;
+}
+
+body {
+    min-width: 420px;
+}
+
+.card:hover {
+    cursor: pointer;
+    background-color: #f2f2f2 !important;
+    color: black !important;
+}
+
+.card-title i {
+    margin-bottom: 6px;
+}
+
+
+/* Add question */
+
+input[type=radio] {
+    vertical-align: middle;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    height: 16px;
+}
+
+input[type=textarea] {
+    resize: none;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title input {
+    width: 400px;
+    padding: 7px 10px;
+    border-radius: 7px;
+    border: 1px solid #008080;
+}
+
+.title input:focus {
+    outline: none;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+
+/* modal */
+
+@media screen and (max-width:1000px) and (min-width:575px) {
+    .modal-lg {
+        max-width: 90% !important;
+    }
+    .question .header button {
+        top: 10px;
+    }
+}
+
+@media screen and (max-width:800px) and (min-width:575px) {
+    #selected-ques .question {
+        width: 85%;
+    }
+    #selected-ques .question .header button {
+        top: 5px;
+    }
+}
+
+@media screen and (max-width:520px) {
+    .question .header div {
+        width: 65%;
+    }
+    #selected-ques .question {
+        width: 95%;
+        margin: 5px;
+    }
+}
+
+
+/* Select Question */
+
+#predefined {
+    width: 100%;
+    padding: 10px;
+}
+
+.question {
+    position: relative;
+    width: 100%;
+    border: 1.5px solid teal;
+    padding: 10px;
+    margin: 14px 0;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px rgb(170, 170, 170);
+}
+
+.question .header {
+    padding-bottom: 5px;
+    border-bottom: 1.5px solid teal;
+}
+
+.question .header div {
+    word-wrap: break-word;
+    width: 80%;
+    display: inline-block;
+}
+
+.question .header button {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    background-color: teal;
+    border-radius: 5px;
+    border: 1px solid teal;
+    outline: 0;
+    color: white;
+    margin-left: 15px;
+    padding: 8px 25px;
+}
+
+.question .header button:hover {
+    background-color: #f2f2f2;
+    border: 1px solid teal;
+    color: teal;
+}
+
+.question .body {
+    padding: 15px 10px;
+}
+
+.question .footer .crrctanswer {
+    text-align: right;
+    margin-right: 30px;
+    color: teal;
+    font-weight: bold;
+}
+
+#selected-ques {
+    width: 100%;
+}
+
+#selected-ques .question {
+    width: 75%;
+    margin: 20px auto;
+    position: relative;
+}
+
+#selected-ques .question .header p {
+    font-size: 1.3em;
+    font-weight: 600;
+}
+
+#selected-ques .body .answers p {
+    font-size: 1.1rem;
+}
+
+#selected-ques .question .header {
+    display: inline-block;
+    padding: 0 10px;
+    width: 100%;
+}
+
+#selected-ques .question .header button {
+    position: absolute;
+    top: 10px;
+}
+
+
+/* submit buttons */
+
+#submitbtn {
+    display: none;
+    justify-content: center;
+    align-content: center;
+    margin: 60px 0;
+}
+
+#submitbtn button#discardbtn {
+    margin-right: 30px;
+    background-color: #f2f2f2;
+    box-shadow: 2px 2px 2px rgb(170, 170, 170);
+}
+
+#proceedbtn {
+    background-color: teal !important;
+    box-shadow: 2px 2px 2px rgb(170, 170, 170);
+}

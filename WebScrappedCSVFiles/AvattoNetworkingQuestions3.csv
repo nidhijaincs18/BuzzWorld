@@ -1,0 +1,28 @@
+﻿question,option1,option2,option3,option4,answer
+Which of the following network access standard disassembler is used for connection station to a packet switched network ?,X.3,X.21,X.25,X.75,Option: C
+IP address can be used to specify a broadcast and map to hardware broadcast if available. By conversion broadcast address has hosted with all bits,0,1,both (a) and (b),none of these,Option: B
+ ARP (address resolution protocol) is,A TCP/IP protocol used to dynamically bind a high level IP address to a low level physical hardware address,ATCP/IP high level protocols for transferring files from one machine to another,a protcol used to monitor computers,a protocol that handles error and control messages,Option: A
+Which of the following TCP/IP protocol is used for file transfer with minimal capability and minimal overhead ?,RARP,FTP,TFTP,TELNET,Option: B
+"How many class A, B and C networks Ids can exist?","2,113,658","16,382",126,128,Option: A
+How many bits internet address is assigned to each host on a TCP/IP internet which is used in all communication with the host ?,16 bits,48 bits ,32 bits,64 bits ,Option: C
+How many characters per sec (7 bits + 1 parity) can be transmitted over a 2400 bps line if the transfer is synchronous (1 start and 1 stop bit) ?,300,250,240,275,Option: A
+" A terminal multiplexer has six 1200 bps terminals and 'n' 300 bps terminals connected to it. If outgoing line is 9600 bps, then maximum value of n is ",4,16,8,28,Option: C
+"In an Ethernet network, what is the relationship between round-trip time and the collision domain?",Round-trip time increases; collision domain decreases,Round-trip time decreases; collision domain decreases,Round-trip time decreases; collision domain increases,None of these,Option: B
+ What are the primary characteristics that distinguish a cell from a packet ?,Cells are generally smaller that packets,Cells do not incorporate physical address,All cells have the same fixed length,Packet cannot be switched,Option: C
+" Three routers have to be inter-connected in a point-to-point network. Each pair of routers may be connected by a high speed line, a medium speed line, a low speed line or no line. If time taken to generate and inspect each topology, is 100 ms, how long will it take to inspect all of them to find one that best matches the expected load ?",12 sec,14.4 sec,6.4 sec,7.0 sec,Option: C
+Which of the following network access standard is used for connecting station to a circuit switched network ?,X.3,X.21,X.25 ,X.75 ,Option: B
+How many hosts are attached to each of the local area network at your site ?,128,1,256,none of these,Option: C
+ICMP (internet control message protocol) is,a protocol that handles error and control messages,a protocol used to monitor computers,both (a) and (b),none of these,Option: A
+Which of the following TCP/IP protocol is used to monitor IP gateway and the networks to which they attach ?,SGMP,SUMP,FTP,both (a) and (b),Option: D
+ Which of the following TCP/IP internet protocol a diskless machine uses to obtain its IP address from a server ?,RDP,ARP,RIP,RARP,Option: D
+How many characters per sec (7 bits + 1 parity) can be transmitted over a 2400 bps line if the transfer is asynchronous (1 start and 1 stop bit) ?,300,240,250,275,Option: B
+" A modern constellation diagram has data point at (0, 1) and (0, 2). The modern uses",phase modulation,amplitude modulation ,both (a) and (b),none of these ,Option: B
+ ICI (Interface Control Information) is,used to transfer user data from layer to layer,used to exchange information by peer entities at different sites on the network to instruct an entity to perform a service function,a combination of service data unit (SDU) and protocol control information (PCI),a temporary parameter passed between N and N - 1 layers to involve service functions between two layers,Option: D
+ Repeaters function in,physical layer,data link layer,network layer,both (a) and (b) ,Option: A
+Adaptive or dynamic directory used in packet routing changes,within each user session,with each user session,at system generation time only,both (a) and (b),Option: A
+"A networking system has an n layers. Application generated message of length M bytes. At each of the layer, a h-byte header is added, what fraction of the network bandwidth is filled with headers ?",M / (n x M) bytes,h x n x M bytes,(n x h) / M bytes,M / (n x m),Option: C
+"Let the clock-driven scheme for generating initial sequence numbers is used with a 15-bit wide clock counter. The clock ticks once every 100 msec, and the maximum poacket lifetime is 60 sec.
+How often need resynchronization take place in the worst case ?",2216.8 sec,2816.8 sec,3216.8 sec,3416.8 sec,Option: C
+"For a 1-Gbps network operating over 4000 km, the delay is the limiting factor, not the bandwidth. Consider a MAN with the average source and destination 20 km apart. At what data rate does the round-trip delay due to the speed of light equal the transmision delay for a1-KB packet ?",24 Mbps,36 Mbps,40 Mbps,48 Mbps,Option: C
+"A group of 2n - 1 routers are interconnected in a centralised binary tree, with a router at each tree node. Router i communicates with router j by sending a message to the root of the tree. The root then sends the message back down to j. The mean number of hops per message for large n, assuming that all router pairs are equally likely will be",n - 4,2n - 1,n - 2,2n - 4,Option: D
+"Let the clock-driven scheme for generating initial sequence numbers is used with a 15-bit wide clock counter. The clock ticks once every 100 msec, and the maximum poacket lifetime is 60 sec. How often need resynchronization take place when the data consumes 240 sequence numbers/min?",3261.3 sec,4261.3 sec,5361.3 sec,6261.3 sec,Option: C

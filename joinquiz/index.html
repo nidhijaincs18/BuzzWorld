@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join the Quiz</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="../images/bw1.jpg">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+
+    <link rel="stylesheet" href="../css_files/slick-theme.css">
+    <link rel="stylesheet" href="../css_files/slick.css">
+
+</head>
+
+<body>
+
+    <nav>
+        <div class="logo">
+            <a href="../">BuzzWorld</a>
+        </div>
+        <ul>
+            <!-- <li class="search">
+                <input type="search" placeholder="Find a Quiz">
+                <button type="button" class="btn"><i class="fal fa-search"></i></button>
+            </li> -->
+            <li>
+                <a href="/joinquiz/create/" id="host"><button type="button" class="btn2"><i class="fas fa-plus "></i>Create a Quiz</button></a>
+            </li>
+            <li class="dropdown">
+                <a href="# " class="drop"><i class="fa fa-bars" aria-hidden="true "></i></a>
+                <div class="drop-content">
+                    <a href="">My Profile</a>
+                    <a href="">Sign out</a>
+                </div>
+            </li>
+        </ul>
+    </nav>
+    <header>
+        <div class="enter-code ">
+            <div class="code-bar ">
+                <form action="/joinquiz/player/">
+                    <input id="name" type="text" name="name" placeholder="Enter Your Name" style="margin-bottom: 5px;" autocomplete="off" />
+                    <input type="number" name="pin" id="pin" placeholder="Enter a join code" autocomplete="off" />
+                    <button id="joinButton">Join</button></form>
+            </div>
+        </div>
+    </header>
+
+    <!-- Prebuild Quizzes -->
+    <div class="category-section">
+        <h3>Computer Science and Skills</h3>
+        <i class="fal fa-chevron-left prev"></i>
+        <i class="fal fa-chevron-right next"></i>
+        <div class="scrollbar">
+            <div class="sample-quiz" onclick="connect('machineLearning','Machine Learning')">
+                <a onclick="connect('machine-learning')" id="machine-learning"><img src="../images/machine-learning.jpeg" alt=""></a>
+                <p>20 Ques</p>
+                <div class="content">
+                    <h3>Machine Learning</h3>
+                </div>
+            </div>
+            <div class="sample-quiz" onclick="connect('iot','Internet Of Things')">
+                <a onclick="connect('iot','Internet Of Things')"><img src="../images/iot.jpg" alt=""></a>
+                <p>20 Ques</p>
+                <div class="content">
+                    <h3>Internet of Things</h3>
+                </div>
+            </div>
+            <div class="sample-quiz" onclick="connect('web','Web Development')">
+                <a onclick="connect('web','Web Development')"><img src="../images/web-dev.jpeg" alt=""></a>
+                <p>25 Ques</p>
+                <div class="content">
+                    <h3>Web Development</h3>
+                </div>
+            </div>
+            <div class="sample-quiz" onclick="connect('cloud','Cloud Computing')">
+                <a onclick="connect('cloud','Cloud Computing')"><img src="../images/cloud-computing.jpg" alt=""></a>
+                <p>20 Ques</p>
+                <div class="content">
+                    <h3>Cloud Computing</h3>
+                </div>
+            </div>
+            <div class="sample-quiz" onclick="connect('bigData','Big Data')">
+                <a onclick="connect('bigData','Big Data')"><img src="../images/big-data.jpg" alt=""></a>
+                <p>15 Ques</p>
+                <div class="content">
+                    <h3>Big Data</h3>
+                </div>
+            </div>
+            <div class="sample-quiz" onclick="connect('dataStructure','Data Structures And Algorithms')">
+                <a onclick="connect('dataStructure','Data Structures And Algorithms')"><img src="../images/data-structure.jpg" alt=""></a>
+                <p>25 Ques</p>
+                <div class="content">
+                    <h3>Data Structures and Algorithms</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="language-section">
+        <h3>Languages and its Subtopics</h3>
+        <i class="fal fa-chevron-left prev-btn"></i>
+        <i class="fal fa-chevron-right next-btn"></i>
+        <div class="slider">
+            <div class="sample-quiz">
+                <a href=""><img src="../images/java-10.webp" alt=""></a>
+                <p>25 Ques</p>
+                <div class="content">
+                    <h3>Basic Java</h3>
+                </div>
+            </div>
+            <div class="sample-quiz">
+                <a href=""><img src="../images/python.jpeg" alt=""></a>
+                <p>20 Ques</p>
+                <div class="content">
+                    <h3>Basic Python</h3>
+                </div>
+            </div>
+            <div class="sample-quiz">
+                <a href=""><img src="../images/javascript.jpeg" alt=""></a>
+                <p>25 Ques</p>
+                <div class="content">
+                    <h3>JavaScript</h3>
+                </div>
+            </div>
+            <div class="sample-quiz">
+                <a href=""><img src="../images/C-programming-1024x530.png" alt=""></a>
+                <p>20 Ques</p>
+                <div class="content">
+                    <h3>C Programming</h3>
+                </div>
+            </div>
+            <div class="sample-quiz">
+                <a href=""><img src="../images/figures-of-speech.jpg" alt=""></a>
+                <p>15 Ques</p>
+                <div class="content">
+                    <h3>Figure Of Speech</h3>
+                </div>
+            </div>
+            <div class="sample-quiz">
+                <a href=""><img src="../images/tenses.jpg" alt=""></a>
+                <p>15 Ques</p>
+                <div class="content">
+                    <h3>Tenses</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="general-section">
+        <h3>General Knowledge</h3>
+        <i class="fal fa-chevron-left prev-button"></i>
+        <i class="fal fa-chevron-right next-button"></i>
+        <div class="general-slider">
+            <div class="sample-quiz">
+                <a href=""><img src="../images/art-culture.jpg" alt=""></a>
+                <p>15 Ques</p>
+                <div class="content">
+                    <h3>Art & Culture</h3>
+                </div>
+            </div>
+            <div class="sample-quiz">
+                <a href=""><img src="../images/indian-economy.jpg" alt=""></a>
+                <p>20 Ques</p>
+                <div class="content">
+                    <h3>Indian Economy</h3>
+                </div>
+            </div>
+            <div class="sample-quiz">
+                <a href=""><img src="../images/indian-movements.jpg" alt=""></a>
+                <p>20 Ques</p>
+                <div class="content">
+                    <h3>Indian Movements</h3>
+                </div>
+            </div>
+            <div class="sample-quiz">
+                <a href=""><img src="../images/inventions.jpg" alt=""></a>
+                <p>15 Ques</p>
+                <div class="content">
+                    <h3>Inventions and Discoveries</h3>
+                </div>
+            </div>
+            <div class="sample-quiz">
+                <a href=""><img src="../images/indian-mythology.webp" alt=""></a>
+                <p>25 Ques</p>
+                <div class="content">
+                    <h3>Indian Mythology</h3>
+                </div>
+            </div>
+            <div class="sample-quiz">
+                <a href=""><img src="../images/pollution.jpg" alt=""></a>
+                <p>20 Ques</p>
+                <div class="content">
+                    <h3>Pollution</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Script Tags -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js "></script>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js " integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin=" anonymous "></script>
+
+    <script src="../js_files/jquery.min.js"></script>
+    <script src="../js_files/slick.min.js "></script>
+
+    <script>
+        $('.scrollbar').slick({
+            infinite: true,
+            slidesToShow: 4,
+            slidesToScroll: 1,
+            arrows: true,
+            prevArrow: $('.prev'),
+            nextArrow: $('.next'),
+            responsive: [{
+                breakpoint: 950,
+                settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 1,
+                    infinite: false,
+                }
+            }, {
+                breakpoint: 800,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 1
+                }
+            }, {
+                breakpoint: 500,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
+            }]
+        });
+        $('.slider').slick({
+            infinite: true,
+            slidesToShow: 4,
+            slidesToScroll: 1,
+            arrows: true,
+            prevArrow: $('.prev-btn'),
+            nextArrow: $('.next-btn'),
+            responsive: [{
+                breakpoint: 950,
+                settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 1,
+                    infinite: false,
+                }
+            }, {
+                breakpoint: 850,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 1
+                }
+            }, {
+                breakpoint: 500,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
+            }]
+        });
+        $('.general-slider').slick({
+            infinite: true,
+            slidesToShow: 4,
+            slidesToScroll: 1,
+            arrows: true,
+            prevArrow: $('.prev-button'),
+            nextArrow: $('.next-button'),
+            responsive: [{
+                breakpoint: 950,
+                settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 1,
+                    infinite: false,
+                }
+            }, {
+                breakpoint: 850,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 1
+                }
+            }, {
+                breakpoint: 500,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
+            }]
+        });
+
+        var queryString;
+
+        function connect(name, topic) {
+            queryString = "?name=" + name + "&topic=" + topic;
+            window.location.href = "samplequizzes" + queryString;
+        }
+    </script>
+</body>
+
+</html>

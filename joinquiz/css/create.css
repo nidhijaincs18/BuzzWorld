@@ -1,0 +1,57 @@
+body {
+    background-color: #008080;
+    user-select: none;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+#title {
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Raleway', sans-serif;
+}
+
+#subtitle {
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+}
+
+#link {
+    color: white;
+}
+
+#game-list {
+    text-align: center;
+}
+
+#back {
+    display: block;
+    color: white;
+    font-size: 1.5em;
+    margin-left: 20px;
+    margin-top: 20px;
+    text-decoration: none;
+}
+
+#gameButton {
+    margin: 20px;
+    padding: 7px 10px;
+    font-size: 1.6em;
+    outline: none;
+    border: 1px solid white;
+    color: black;
+    background-color: aliceblue;
+}
+
+#gameButton:hover {
+    cursor: pointer;
+}

@@ -1,0 +1,15 @@
+﻿question,option1,option2,option3,option4,answer
+"In context of OSI or TCP/IP computer network models, which of the following is FALSE ?","Besides span of geographical area, the other major difference between LAN and WAN is that the later uses switching element",A repeater is used just to forward bits from one network to another one,IP layer is connected oriented layer in TCP/ IP,A gateway is used to connect incompatible networks,Option: C
+ The physical layer in reference to the OSI model defines,data link procedures that provide for the exchange of data via frames that can be sent and received,interface between X.25 network and packet mode device,virtual circuit interface to packet-switched aservice,All of these,Option: B
+The main purpose of a data link content monitor is to,detect problems in protocols,determine the type of transmission used in data link,determine the type of switching used in data link,determine the low of data,Option: A
+Which company develops the TCP/IP protocol for networking ?,IBM,DEC,NOVELL,DARPA,Option: D
+Error detection at the data link level is achieved by,Bit stuffing,Cyclic redundancy codes,Hamming codes,Both b and c,Option: B
+Which of the following ISO level is more closely related to the physical communications facilities?,Appication,Session,Network,Data link,Option: D
+ Which model shows how the network functions of a computer ought to be organized ?,ITU-T,OSI,ISO,ANSI,Option: B
+" Data link layer retransmits the damaged frames in most networks. If probability of a frame's being damaged is p, then what is the mean number of transmissions required to send a frame if acknowledgements are never lost ?",K / K - P,1 / K - P,K / K(1 + p),p / K + 1,Option: B
+Which of the following is a wrong example of network layer ?,Internet protocol (I/P) ARPA NET ,X.25 packet land protocols(PLP-ISO) ,source routing and domains naming usenet,X.25 level 2-ISO,Option: D
+IEEE Project 802 divides the data link layer into which upper sublayer and which lower sublayer ?,"LLC, MAC","MAC, LLC ","PDU, HDLC","HDLC, PDU ",Option: A
+"Data link layer retransmits the damaged frames in most networks. If probability of a frame's being damaged is p, then what is the mean number of transmissions required to send a frame if acknowledgements are never lost ?",K / K - P,1 / K - P,K / K(1 + p),p / K + 1,Option: B
+ Which layer functions as a liaison between user support layers and network support layers ?,Network layer,Physical layer,Transport layer,Session layer,Option: C
+Which of the following are session layer checkpoints?,Allow just a portion of a file to be resent,Detect and recover errors,Control the addition of headers,Are involved in dialog control,Option: A
+"In session layer, during data transfer, the data stream responsible for the control purpose (i.e. control of the session layer itself) is",regular data,typed data,capability data ,expedited data,Option: C

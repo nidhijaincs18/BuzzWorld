@@ -1,0 +1,20 @@
+﻿question,option1,option2,option3,option4,answer
+ Which of the following is not relevant to networking ?,Low-end stand alone hubs,Stackable hubs,Mesh network,Bus hubs,Option: D
+ What is the name of network architecture that was developed by IBM ?,SNA,DECNET,XNS,Novell,Option: A
+ Which organisation draws up standards for modems ?,CCITT,BELL,AT&T,Hayes,Option: A
+ Which of t h e following is not a class of LAN ?,Broad band,CSMA/CD,Token bus,Token ring,Option: A
+ Network operating system that does not support symmetric multiprocessing (SMP) is,Banyan (VINES),Microsoft NT Advanced server,SCO unix,Novell network 3.X,Option: D
+The topology with highest reliability is,bus topology,star topology,ring topology,mesh topology,Option: D
+ Baud means the,number of bits transmitted per unit time,number of bytes transmitted per unit time,rate at which the signal changes,None of these,Option: C
+ Which topology requires a central controller or hub ?,Mesh,Star,Bus,Ring,Option: B
+Which topology requires a multi point connection?,Mesh,Star,Bus,Ring,Option: C
+"In which topology, if there are n devices in a network, each device has n-1 ports for cables ?",Mesh,Star,Bus,Ring,Option: A
+A network that contains multiple hubs is most likely conigured in which topology ?,Mesh,Tree,Bus,Star,Option: B
+ A packet-switching network,is free,can reduce the cost of using an information utility,allows communications channel to be shared among more than one user,Both (b) and (c),Option: D
+ IEEE Project 802 divides the data link layer into which upper sublayer and which lower sublayer ?,"LLC, MAC","MAC, LLC ","PDU, HDLC","HDLC, PDU ",Option: A
+One important characteristics of the hub architecture of ARC - net is,directionalized trasmission,access control and addressing,multiple virtual networks,alternate routing,Option: A
+ Which of the following device is used with an X-25 network to provide service to asynchronous terminals ?,Repeater,Bridges,Gateway,Packet assembled,Option: D
+"In time division switches, if each memory access takes 100 ns and one frame period is 125ms, then maximum number of lines that can be supported is ",625,1250,2300,318,Option: A
+Frequency of failure and network recovery time after a failure are measures of what concept of a network ?,Performance,Reliability,Security,Feasibility,Option: B
+"When a protocol specifies that address of the sender means the most recent sender and not the original source, what does this mean ?",Syntax,Semantics,Timing,None of these ,Option: B
+ Which of the following two networks can use possible hubs ?,Ethernet,Arcnet,Both (a) & (b),All of these,Option: C

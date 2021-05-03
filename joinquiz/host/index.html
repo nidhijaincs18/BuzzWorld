@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>BuzzWorld</title>
+    <link rel="stylesheet" href="../css/host.css">
+    <link rel="icon" href="../../images/bw1.jpg">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Tajawal" rel="stylesheet">
+</head>
+
+<body>
+    <button id="cancel" onclick="endGame()"><i class="fas fa-times"></i></button>
+
+    <div class="main">
+        <h2 id="title">Join this Quiz using the Pin: </h2>
+        <h1 id="gamePinText"></h1>
+        <textarea style="width: 600px; height: 350px;" readonly id='players'></textarea>
+
+        <button id='start' onclick="startGame()">Start Quiz</button></div>
+
+    <script src="http://localhost:3000/socket.io/socket.io.js"></script>
+    <script src="../js/libs/jqueryLibrary.js"></script>
+    <script src="../js/libs//deparam.js"></script>
+    <script src="../js/host.js"></script>
+</body>
+
+</html>

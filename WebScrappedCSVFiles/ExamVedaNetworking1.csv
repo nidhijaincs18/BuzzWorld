@@ -1,0 +1,11 @@
+﻿question,Option A,Option B,Option C,Option D,answer
+"""BAUD"" rate means",The number of bits transmitted per unit time.,The number of bytes transmitted per unit time.,The rate at which the signal changes.,None of the above," Option C"
+Start and stop bits are used in serial communication for,Error detection,Error correction,Synchronization,Slowing down the communication," Option C"
+Unmodulated signal coming from a transmitter is know as,Carrier signal,Baseband signal,Primary signal,None of these," Option B"
+"How many Character per sec(7bits + 1parity) can be transmitted over a 2400 bps line if the transfer is synchronous (1 ""Start"" and 1 ""stop"" bit)?",300,240,250,275," Option A"
+Which one of the following network uses dynamic or adaptive routing?,TYMNET,ARPANET,SNA(IBM's System Network Architechture),None of these," Option B"
+The number of cross point needed for 10 lines in a cross point switch which is full duplex in nature and there are no self connection is,100,45,50,90," Option B"
+A terminal multiplexer has six 1200 bps terminals and 'n' 300bps terminals connected to it. The outgoing line is 9600bps. What is the maximum value of n?,4,16,8,28," Option C"
+Maximum data rate of a channel for a noiseless 3-kHz binary channel is,3000bps,6000 bps,1500 bps,None of these," Option B"
+The ________ measures the number of lost or garbled messages as a fraction of the total sent in the sampling period.,Residual Error Rate.,Transfer Failure Probability.,Connection release failure probability.,Connection establish.," Option A"
+"In session layer, during data transfer, the data stream responsible for the ""control"" purpose (i.e control of the session layer itself) is",Regular Data,Typed data,Capability Data,Expedited Data," Option C"

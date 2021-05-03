@@ -1,0 +1,28 @@
+﻿question,A.,B.,C.,D.,answer
+"1
+. The _______ is the physical path by which a message travels from sender to receiver",Protocol,Message,Transmission medium,Sender,"
+ C. Transmission medium"
+"2
+. Twisted-pair wire, coaxial cable, and fiber-optic cable are all types of _______",Protocols,Messages,Media,Data,"
+ C. Media"
+"3
+. A _______ is a set of rules governing data communication between two devices",Protocol,Message,Medium,Sender,"
+ A. Protocol"
+"4
+. A _______ is a set of devices (nodes) connected by media links",Message,Protocol,Network,Distributor,"
+ C. Network"
+"5
+. The _______ is the information (data) to be communicated",Protocol,Message,Medium,Sender,"
+ B. Message"
+"6
+. The message can consist of _______",Text,Images,Video,Any of the above,"
+ D. Any of the above"
+"7
+. The _______ is the device that sends the message",Protocol,Network,Sender,Medium,"
+ C. Sender"
+"8
+. The source can be a _______",Computer,Telephone handset,Video camera,Any of the above,"
+ D. Any of the above"
+"9
+. The receiver can be a _______.",Computer,Telephone handset,Video camera,Any of the above,"
+ D. Any of the above"

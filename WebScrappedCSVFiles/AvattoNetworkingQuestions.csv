@@ -1,0 +1,115 @@
+﻿question,option1,option2,option3,option4,answer
+Which of the following is possible in a token passing bus network ?,in-service expansion,unlimited number of stations,both (a) and (b),unlimited distance,Option: A
+ In networking terminology UTP means,Unshielded Twisted pair,Ubiquitious Teflon port,Uniformly Terminating port,Unshielded T-connector port,Option: A
+Simple network management protocol (SNMP) is implemented with a daughter board in,the nodes,the server,the hubs,a separate PC that manages the network,Option: C
+The amount of uncertainty in a system of symbol is called,Bandwidth,Entropy,Loss,Quantum,Option: B
+Working of the WAN generally involves,telephone lines,micro waves,satellites,All of these,Option: D
+ Different computers are connected to a LAN by a cable and,modem,interface card,special wires,telephone lines,Option: B
+ Modem is used in data trasmission. When was it involved and in which country ?,"1963, USA","1965, Germany","1950, USA","1950, Japan",Option: C
+ Fibre optics have maximum segment,500 m,200 m,100 m,2000 m,Option: D
+Twisted pair have maximum segment of,500 m,200 m,100 m,2000 m,Option: C
+ Thick coax have maximum segment of,500 m,200 m,100 m,700 m,Option: A
+"Method of communication in which transmission takes place in both directions, but only in one direction at a time, is called",simplex,four wire circuit,full duplex,half duplex,Option: D
+Unmodulated signal coming from a transmitter is known as,carrier signal,baseband signal,primary singal,None of these,Option: B
+Bit stuffing refers to,inserting a '0' in user stream to differentiate it with a lag,inserting a '0' in lag stream to avoid ambiguity,appending a nibble to the lag sequence,appending a nibble to the use data stream,Option: A
+" In a broad sense, a railway track is an example of",simplex,half-duplex,full-duplex,All of these,Option: B
+"Frequency range at which the land coaxial cables are used, is",106 to 108 Hz,1010 to 1011 Hz,103 to 104 Hz,None of these,Option: A
+What uses a physical star topology ?,10 base 5,10 base 2,10 base T,None of these,Option: C
+ The monitor station in what standard ensures that one and only one token is circulating ?,802.3,802.5,Both (a) and (b),All of these,Option: B
+What can happen at a Token Ring station ,Examination of the destination address,Regeneration of the frame,Passing of the frame to the next station,All of these,Option: D
+"In Token Ring, when a frame reaches its destination station, then",message is copied,four bits in the packet are changed,message is taken of the ring and replaced by the token,both (a) and (b),Option: D
+Which of the following is not a transceiver function?,Transmission and receipt of data,Checking of line voltages,Addition and subtraction of headers,Collision detection,Option: C
+ The station-to-hub distance in which of the following is 2000 meters ?,100 Base-TX,100 Base-FX,100 Base - T4,100 Base - T1,Option: B
+Ether LAN uses,polar encoding,diferential manchester encoding,manchester encoding,NRZ,Option: C
+Which of the given below  houses the switches in Token Ring ?,NIC,MAU,Nine-pin connector,Transceiver,Option: B
+ Which of the following uses an 8B/6T encoding scheme?,100 Base-TX,100 Base-FX,100 Base-T4,100 Base-T1,Option: C
+IBM's Token-Ring network uses,adaptive routing,source routing,alternative routing,spanned tree routing,Option: A
+" In which circuit switching, delivery of data is delayed because data must be stored and retrieved from RAM ",space-division,time-division,virtual,packet,Option: B
+"If a network designer wants to connect 5 routers as point-to-point simplex line, then total number of lines required would be",5,10,20,32,Option: B
+" To interface a computer terminal with a modem, required physical layer standard is",RS 424 - A,RS 232 - C,RS 449,Either (b) or (c),Option: D
+ A 100 km long cable runs at the T1 data rate. The propagation speed in the cable is half the speed of light. How many bits is in the cable ?,572,672,772,873,Option: C
+How much bandwith is there in 0.1 micron of spectrum at a wavelength of 1 micron ?,"20,000 GHz","25,000 GHz","30,000 GHz",None of these,Option: C
+"It is desired to send a sequence of computer screen images over an optical fiber. The screen is 480 x 640 pixels, each pixel being 24 bits. There are 60 screen images per second. How much bandwidth is needed, and how many microns of wavelenth are needed for this band at 1.30 microns?",1.0 x 105 microns,2 x 105 microns,2.5 x 105 microns,5 x 105 microns,Option: C
+Establishing a virtual connection is virtually equivalent to,connecting as virtual memory,physically connecting a DTE and DCE,placing a telephone call prior to a conversion,placing a modem prior to a conversion,Option: C
+How many digits of the network user Address are known as the DNIC (Data Network Identiication Code) ?,First three,First four,First five,First seven,Option: B
+How many digits of the DNICC (Data Network Identiication Code) identify the country ?,First three,First four,First five,First six,Option: A
+Which of the following digits are known as the area code of the network user address (NUA) ?,5-7,1-4,8-12,13-14,Option: A
+Which of the following digits are known as the terminal number of the network user address,5-7,1-4,8-12,13-14,Option: C
+ Four bits are used for packed sequence numbering in a sliding window protocol used in a computer network. What is the maximum window size ?,4,8,15,16,Option: C
+ A station in a network forward incoming packets by placing them on its shortest output queue. What routing algorithm is being used ?,Hot potato routing,Floding,Static routing,Delta routing,Option: A
+Which of the following program is used to copy files to or from another using time sharing system over a single link ?,VMTP,TFTP,UUCP,UART,Option: C
+ Working of the WAH generally involves,telephone lines,micro waves,satellites,All of these,Option: D
+Slotted ALOHA,divide time into discrete intervals,require global time synchronization,both (a) and (b),none of these,Option: C
+Start and stop bits are used in serial communication for,error detection,error correction,synchronization,slowing down the communication,Option: C
+"In the carrier sense network, if prevailing condition is a 'channel busy', then technique used is",non-persistent then it results in randomised wait and sense,1-persistent then the channel is continually sensed, p-persistent then randomised retransmission is done,both (a) and (b),Option: B
+The systems that can be used in both priority and non-priority modes is,TDM,Register insertion,Carrier sense systems,all of these,Option: C
+ Number of cross point needed for 10 lines in a cross point switch which is full duplex in nature and there are no self-connection is,100,45,8,28,Option: B
+Maximum data rate of a channel for a noiseless 3-kHz binary channel is,3000 bps,1500 bps,6000 bps,none of these ,Option: C
+Which of the following measures the number of lost or garbled messages as a fraction of the total sent in the sampling period ?,Residual error rate,Transfer failure probability,Connection release failure probability,Connection establishment failure probability,Option: A
+Minimum number of bits required to represent all the symbols together is,15,14,12,11,Option: A
+A field in the Ethernet message packet is, Type,data,address,none of these,Option: D
+"If data rate of ring is 20 Mbps, signal propagation speed is 200 b/ms, then number of bits that can be placed on the channel of 200 km is",2000 bits,"20,000 bits","1,000 bits",none of these,Option: B
+ What signal-to-noise ratio is needed to put a T1 carrier on a T0-kHz line ?,63 db,73 db,83 db, 93 db ,Option: D
+"In which ARQ, when a NAK is received, all frame sent since the last frame acknowledged an retransmitted",stop-and-wait,go-back-n,selective-reject,both (a) and (b) ,Option: B
+PURE ALOHA,Does not require global time synchronization,does require global time synchronization,both (a) and (b),none of these,Option: A
+Manchester code is a,non-return to zero code,polar code,both (a) and (b),none of these,Option: C
+Non-polling system is,TDMA,stop and wait,continuous ARQ,none of these,Option: A
+Adaptive or dynamic directory used in packet routing changes,within each user session,with each user session,at system generation time only,none of these,Option: A
+Differential Manchester code for the given figure is ,111100101,100010111,101001111,101001101,Option: B
+Maximum data rate of a channel of 3000 Hz bandwidth and SNR of 30 dB is,"75,000 bps","60,000 bps","30,000 bps","3,000 bps",Option: C
+Minimum number of bits required to represent B is,1,2,3,4,Option: C
+A 3000 Hz bandwidth noisy channel transmits bits with a signal to thermal noise ratio of 30 dB. What is the maximum data rate of the channel ?,30 kbps,00 kbps,60 kbps,none of these,Option: A
+"In a broad sense, a railway track is an example of",simplex,half-duplex,full-duplex ,all of these,Option: B
+Which of the following access control methods is probabilstic ?,Polling,Contention,Token passing,Sliding window,Option: D
+" In stop-and-wait ARQ, if data 1 has an error, then receiver sends which frame ?",NAK 0,NAK 1,NAK 2,NAK,Option: D
+"In which communication, poll/select method used to determine control of the line ?",peer-to-peer,peer-to-primary,primary-to-peer,primary-to-secondary,Option: D
+The secondary device in a multipoint configuration sends data in response to which of the following event ?,ACK,ENQ,Poll,Sel,Option: C
+ Which of the following decides the role (sender or receiver) of a device on a network ?,Line connection,Link connection,Line discipline,Link decision,Option: C
+" For stop-and-wait flow control, for n data packets sent, how many acknowledgments are needed ?",n,n-1,2n,n + 1,Option: A
+The collision domain of tranditional Ethernet and Fast Ethernet respectively are,"250m, 250m","250m, 2500m","2500m, 250m","2500m, 2500m",Option: C
+"In a crossbar with 1000 crosspoints, how many statistically are in use at any time ?",100,250,500,1000,Option: B
+Which of the following is a time - division switch?,TSI,TDM bus,crosspoint,both (a) and (b),Option: D
+In which routing method do all the routers have a common database ?,Distance vector,Link state,Link vector,None of these,Option: B
+A terminal multiplexer has six 1200 bps terminals and (rf 300 bps terminals connected to it. The outgoing line is 9600 bps. What is the maximum value of n?,4,16,8,28,Option: C
+" Data link layer retransmits the damaged frames in most networks. If probability of a frame's being damaged is p, then what is the mean number of transmissions required to send a frame if acknowledgements are never lost ?",K / K - P,1 / K - P,K / K(1 + p),p / K + 1,Option: B
+" If a designer wants to design a point-to-point subnetwork with 10 routers of full duplex line, then total number of lines among them would be",10,20,45,90,Option: D
+Maximum data rate of a noiseless 4 kHz channel using T1 PCM system is,32 kbps,56 kbps,80 kbps,24 kbps,Option: B
+Phase shift keying (PSK.) method is used to modulate digital signals at 9600 bps using 16 levels. The line signals speed (i.e. modulation rate) will be,2400 bands,1200 bands,4800 bands,9600 bands,Option: A
+Television channels are 6 MHz. How many bits can be sent if four level digital signals are used (assume a noiseless channel)?, 24 Mbps,12 Mbps,6 Mbps,36 Mbps,Option: A
+" What is the maximum burst length on an 155.52 Mbps ATM ABR connection whose PCR value 200,000 and whose L value is 25 msec ? ",9 cells,12 cells,15 cells,18 cells,Option: B
+Poll/select line discipline requires what to identify the packet recipient ?,Timer,Buffer,Address,Dedicated line,Option: C
+"In sliding window flow control, if window size is 63, what is the range of sequence numbers ?",0 to 63,0 to 64,1 to 63,1 to 64,Option: A
+"For a sliding window of size n-1 (n sequence numbers), there can be maximum of how many frames sent but unacknowledged ?",0,n -1,N,n +1,Option: B
+Select incorrect statement in error retransmission used in continuous ARQ method.,Go-back-N method requires more storage at the receiving site,Selective repeat involves complex login than GO-back-N,Go-back-N has better line utilization,Selective repeat has better line utilization,Option: C
+Collision domain can be compared to which distance data travels between two stations ?,Minimum,Maximum,Virtual,Both (a) and (b),Option: B
+How many crosspoints are needed in a single-stage switch with 40 inputs and 50 outputs ?,40,90,50,2000,Option: D
+" In a time - division switch, which governs the destination of a packet stored in RAM?",TDM bus,Crosspoint,crossbar,Control unit,Option: D
+"The number of cross-points needed for 10 lines in a cross-point switch which is full duplex in nature and there are no self connection, is",100,45,50,90,Option: B
+"A group of 2m - 1 routers are interconnected in a centralized binary tree. With router at each tree node. Router I communicates with router J by sending a message to the root of the tree. If root then sends the message back down J, the mean path length will be",2 (m - 2),2 (2m - 1),m - 1,(2m - 1)/mJ,Option: A
+" A circuit switching network has the following characteristics :
+
+Set up time = 5 sec
+Propagation = 5 sec
+Message size = 1 M bits
+Data transmission rate = 1 M bits
+Data transmission rate = 1
+Kbps Number of hops = 10
+
+When will the last bit of the message reach the receiver ?",t = 520 sec,t = 1000 ms,t = 250 sec,t = 1025 sec,Option: D
+"Two networks each provide reliable connection-oriented service. One of them offers a reliable byte stream and the other offers a reliable message stream. A process writes 1024 bytes, then",both networks will receive 2048 bytes as a single unit,message stream network will receive 1024 bytes only at one time. But byte stream network will receive 2048 bytes as a single unit.,message stream network receives 2048 bytes as a whole. But bytes stream 1024 bytes only at a time.,both will receive 1024 bytes at one time since there is a gap between writes,Option: B
+"A packet switching network (highly loaded) has  the following characteristics:
+
+Propagation delay = 2 sec/hp.
+Data transmission rate = 1.
+Packet size = r bit = 512 bits.
+Number of of hops = 10.
+
+At what time the last bit of the last packet will reach the receiver ?",1024.5 sec,1038 sec,2048 sec,512 sec,Option: A
+What is the percentage of over head on a T1 carrier (1.544 Mbps) ?,25% ,13%,20%,47%,Option: B
+ A noiseless 3 kHz channel transmits bits with binary level signals. What is the maximum data rate ?,3 kbps,6 kbps,12 kbps,24 kbps,Option: B
+Given an infinite amount of buffer space. In the text it was stated that a satellite with two uplink and one downlink slotted ALOHA channels can achieve a downlink utilization of,0.536,0.636,0.736,0.936,Option: C
+"In time division switches, if each memory access takes 100 ns and one frame period is 125ms, then maximum number of lines that can be supported is ",625,1250,2300,318,Option: A
+A bridge has access to which address of a station on the same network ?,Physical,Network,Service access point,All of these,Option: A
+A high speed communication equipment typically would not be needed for,E-mail,transferring large volume of data,supporting communication between nodes in a LAN,all of these,Option: A
+Protection of data from a natural disaster such as a tornado belongs to which of the following network issue ?,Performance,Reliability,Security,Management,Option: B
+Decryption and encryption of data are responsibility of,physical layer,data link layer,presentation layer,session layer ,Option: C

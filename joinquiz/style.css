@@ -1,0 +1,367 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body,
+html {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    user-select: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    min-width: 420px;
+}
+
+
+/* Chrome, Safari, Edge, Opera */
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+
+/* Firefox */
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+
+/* Navigation Bar */
+
+nav {
+    width: 97%;
+    margin: 0 auto;
+    position: relative;
+    border-bottom: 2px solid #008088;
+}
+
+nav::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+nav .logo {
+    float: left;
+    margin: 20px 50px;
+}
+
+nav .logo a {
+    text-decoration: none;
+    font-size: 1.6rem;
+    font-weight: bolder;
+    color: #008088;
+}
+
+nav ul {
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 50px 0 0;
+}
+
+nav ul li:last-child {
+    margin: 0 20px 0 0;
+}
+
+nav ul li input {
+    padding: 8px;
+    border: 1px solid lightgrey;
+}
+
+nav ul li button {
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+nav ul li .btn {
+    padding: 8px;
+    font-size: 1rem;
+    background-color: #008088;
+    color: #fff;
+    border-radius: 5px;
+}
+
+nav ul li .btn2 {
+    padding: 8px;
+    font-size: 1rem;
+    background-color: #008088;
+    color: #fff;
+    border-radius: 5px;
+}
+
+nav ul li .btn2 i {
+    margin-right: 10px;
+}
+
+nav ul li a .fa-bars {
+    text-decoration: none;
+    color: #008088;
+    font-size: 1.5rem;
+    transition: 0.5s;
+}
+
+nav ul .dropdown .drop-content {
+    display: none;
+    position: absolute;
+    right: 40px;
+    background-color: #f1f1f1;
+    min-width: 150px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 2;
+}
+
+.dropdown .drop-content a {
+    color: #008088;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.drop-content a:hover {
+    background-color: #ddd;
+    border-left: 2px solid #008088;
+}
+
+.dropdown:hover .drop-content {
+    display: block;
+}
+
+
+/* Header */
+
+header {
+    width: 100%;
+    height: 230px;
+    margin-top: 15px;
+    overflow: hidden;
+}
+
+header .enter-code {
+    width: 65%;
+    height: 85%;
+    border-radius: 10px;
+    margin: 15px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1px 1px 2px 1px lightgray;
+}
+
+header .enter-code .code-bar {
+    padding: 8px;
+    width: 50%;
+    margin: 0 auto;
+    background-color: rgb(224, 218, 218);
+    border-radius: 5px;
+    border: 2px solid rgb(190, 189, 189);
+}
+
+header .enter-code .code-bar input {
+    width: 80%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    margin-right: 1%;
+    font-size: 1rem;
+}
+
+.enter-code .code-bar button {
+    background-color: #008088;
+    color: white;
+    padding: 8px 12px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 1px 1px 2px #008088;
+    transition: 0.4s;
+    cursor: pointer;
+    font-size: 1.1rem;
+}
+
+.enter-code .code-bar button:hover {
+    background-color: #cae8ff;
+    color: black;
+}
+
+
+/* Sample Quizzes */
+
+.general-section {
+    margin-bottom: 50px;
+}
+
+.category-section,
+.language-section,
+.general-section {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.category-section h3,
+.language-section h3,
+.general-section h3 {
+    margin: 15px;
+    color: #017179;
+}
+
+.category-section .scrollbar,
+.language-section .slider,
+.general-section .general-slider {
+    width: 95%;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.category-section .scrollbar .sample-quiz,
+.language-section .slider .sample-quiz,
+.general-section .general-slider .sample-quiz {
+    width: 20.5%;
+    height: 230px;
+    margin: 10px 20px;
+    border-radius: 12px;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    outline: none;
+    border: 1px solid lightgrey;
+    transition: 0.5s;
+}
+
+.scrollbar .sample-quiz img,
+.slider .sample-quiz img,
+.general-slider .sample-quiz img {
+    width: 100%;
+    height: 100%;
+}
+
+.scrollbar .sample-quiz p,
+.slider .sample-quiz p,
+.general-slider .sample-quiz p {
+    position: absolute;
+    bottom: 65px;
+    left: 20px;
+    width: 70px;
+    background-color: lightgrey;
+    text-align: center;
+    border-radius: 3px;
+    z-index: 2;
+    font-size: 0.9rem;
+}
+
+.scrollbar .sample-quiz .content,
+.slider .sample-quiz .content,
+.general-slider .sample-quiz .content {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 75px;
+    z-index: 1;
+    background-color: #fff;
+}
+
+.scrollbar .sample-quiz .content h3,
+.slider .sample-quiz .content h3,
+.general-slider .sample-quiz .content h3 {
+    font-size: 1.1rem;
+    text-align: center;
+    margin: 20px 0 10px;
+    padding: 0 10px;
+}
+
+.scrollbar .sample-quiz:hover,
+.slider .sample-quiz:hover,
+.general-slider .sample-quiz:hover {
+    box-shadow: -1px 1px 1px 1px rgb(182, 181, 181);
+}
+
+.category-section .fal,
+.language-section .fal,
+.general-section .fal {
+    position: absolute;
+    top: 62%;
+    transform: translateY(-62%);
+    font-size: 1.7rem;
+    transition: 0.5s;
+}
+
+.category-section .prev,
+.language-section .prev-btn,
+.general-section .prev-button {
+    left: 2%;
+}
+
+.category-section .next,
+.language-section .next-btn,
+.general-section .next-button {
+    right: 2%;
+}
+
+.category-section .fal:hover,
+.language-section .fal:hover,
+.general-section .fal:hover {
+    cursor: pointer;
+}
+
+
+/* Responsive */
+
+@media screen and (max-width:850px) {
+    nav ul li.search {
+        display: none;
+    }
+    header .enter-code {
+        width: 80%;
+    }
+    header .enter-code .code-bar {
+        width: 70%;
+    }
+    header .enter-code .code-bar input {
+        width: 75%;
+        margin-right: 1%;
+    }
+}
+
+@media screen and (max-width:550px) {
+    nav .logo {
+        margin: 20px 0px 20px 15px;
+    }
+    nav ul li {
+        margin: 0 20px 0 0;
+    }
+    nav ul li:last-child {
+        margin: 0;
+    }
+    nav ul li .btn2 {
+        font-size: 0.85rem;
+    }
+    nav ul li .btn2 i {
+        margin-right: 5px;
+    }
+    header .enter-code {
+        width: 90%;
+    }
+    header .enter-code .code-bar {
+        width: 80%;
+    }
+}
