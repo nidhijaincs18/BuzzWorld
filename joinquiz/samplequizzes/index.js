@@ -176,7 +176,7 @@ function showResultBox() {
     if (window.score == window.questions.length) {
         document.querySelector("#greet").innerHTML = "Congrats!! ";
         document.querySelector("#greet").style.color = "#016666";
-    } else if (window.score <= parseInt(window.questions.length / 2)) {
+    } else if (window.score <= parseInt(window.questions.length / 3)) {
         document.querySelector("#greet").innerHTML = "and sorry, ";
     } else {
         document.querySelector("#greet").innerHTML = "and nice, ";
@@ -200,6 +200,7 @@ function startTimer(time) {
         }
         if (time < 0) {
             clearInterval(counter);
+            next_btn.style.display = "block";
             timeCount.textContent = "00";
             for (let j = 0; j < 4; j++) {
                 option_list.children[j].classList.add("disabled");
@@ -218,26 +219,29 @@ function startTimerLine(time) {
         timeLine.style.width = time + "%";
         if (time < 0) {
             clearInterval(counterLine);
+            next_btn.style.display = "block";
             for (let j = 0; j < 4; j++) {
                 option_list.children[j].classList.add("disabled");
             }
         }
         if (time < 30) {
             timeLine.style.backgroundColor = "red";
+        } else {
+            timeLine.style.backgroundColor = "#016666";
         }
     }
 }
 
 function shuffleArray(array) {
-    for (var i = array.length - 1; i > 0; i--) {
+    // for (var i = array.length - 1; i > 0; i--) {
 
 
-        var j = Math.floor(Math.random() * (i + 1));
+    //     var j = Math.floor(Math.random() * (i + 1));
 
-        var temp = array[i];
-        array[i] = array[j];
-        array[j] = temp;
-    }
+    //     var temp = array[i];
+    //     array[i] = array[j];
+    //     array[j] = temp;
+    // }
 
-    return array;
+    // return array;
 }
