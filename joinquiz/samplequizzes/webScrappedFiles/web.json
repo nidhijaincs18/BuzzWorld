@@ -1,0 +1,176 @@
+[{
+    "question": "What is the preferred way for adding a background color in HTML?",
+    "option1": "&ltbody background='yellow'&gt",
+    "option2": "&ltbackground&gtyellow&lt/background&gt",
+    "option3": "&ltbody style='background-color:yellow'&gt",
+    "option4": "&ltbackground color='yellow'&gttext&ltbackground&gt",
+    "answer": "<body style='background-color:yellow'>"
+}, {
+    "question": "What is the correct HTML for creating a hyperlink?",
+    "option1": "&lta name=''&gtA&lt/a&gt",
+    "option2": "&lta&gtB&lt/a&gt",
+    "option3": "&lta href='http://www.example.com'&gtexample&lt/a&gt",
+    "option4": "&lta url='http://www.example.com'&gtexample&lt/a&gt",
+    "answer": "<a href='http://www.example.com'>example</a>"
+}, {
+    "question": "How can you create an e-mail link?",
+    "option1": "&ltmail href='a@b'&gt",
+    "option2": "&ltmail&gta@b&lt/mail&gt",
+    "option3": "&lta href='a@b'&gt",
+    "option4": "&lta href='mailto:a@b.com'&gt",
+    "answer": "<a href='mailto:a@b.com'>"
+}, {
+    "question": "How can you open a link in a new browser window?",
+    "option1": "&lta href='url' new&gt",
+    "option2": "&lta href='url' target='new'&gt",
+    "option3": "&lta href='url' target='_blank'&gt",
+    "option4": "&lta href='url' target=''&gt",
+    "answer": "<a href='url' target='_blank'>"
+}, {
+    "question": "Which of these tags are all &lttable&gt tags?",
+    "option1": "&lttable&gt&lthead&gt&lttfoot&gt",
+    "option2": "&lttable&gt&lttr&gt&lttd&gt",
+    "option3": "&lttable&gt&lttr&gt&lttt&gt",
+    "option4": "&ltthead&gt&ltbody&gt&lttr&gt",
+    "answer": "<table><tr><td>"
+}, {
+    "question": "Which of the following JavaScript can do?",
+    "option1": "JavaScript can react to events",
+    "option2": "JavaScript can manipulate HTML elements",
+    "option3": "JavaScript can be use to validate data",
+    "option4": "All of the Above",
+    "answer": "All of the Above"
+}, {
+    "question": "Whats so great about XML?",
+    "option1": "Easy data exchange",
+    "option2": "High speed on network",
+    "option3": "Both A & B",
+    "option4": "None of the Above",
+    "answer": "Both A & B"
+}, {
+    "question": "Which is not a property of attribute Behaviour of &ltMarquee&gt tag?",
+    "option1": "alternate",
+    "option2": "blur",
+    "option3": "scroll",
+    "option4": "slide",
+    "answer": "blur"
+}, {
+    "question": "_________ keyword is used to declare variables in javascript.",
+    "option1": "Var",
+    "option2": "Const",
+    "option3": "Let",
+    "option4": "All of the Above",
+    "answer": "All of the Above"
+}, {
+    "question": "Which CSS property can provide to add an effect when changing from one style to another,without using Flash animations or javascript?",
+    "option1": "Associations",
+    "option2": "Transitions",
+    "option3": "Transistor",
+    "option4": "None of the above",
+    "answer": "Transitions"
+}, {
+    "question": "In JavaScript, _________ is an object of the target language data type that encloses an object of the source language.",
+    "option1": "a wrapper",
+    "option2": "a link",
+    "option3": "a cursor",
+    "option4": "a form",
+    "answer": "a wrapper"
+}, {
+    "question": "What is the correct HTML for making a checkbox?",
+    "option1": "&ltcheckbox&gt",
+    "option2": "&ltinput type='checkbox' /&gt",
+    "option3": "&ltinput type='check' /&gt",
+    "option4": "&ltcheck&gt",
+    "answer": "<input type='checkbox' />"
+}, {
+    "question": "What is the correct HTML for making a text input field?",
+    "option1": "&ltinput type='textfield' /&gt",
+    "option2": "&lttextinput type='text' /&gt",
+    "option3": "&lttextfield&gt",
+    "option4": "&ltinput type='text' /&gt",
+    "answer": "<input type='text' />"
+}, {
+    "question": "What is the correct HTML for making a drop-down list?",
+    "option1": "&ltinput type='list' /&gt",
+    "option2": "&ltselect&gt",
+    "option3": "&ltlist&gt",
+    "option4": "&ltinput type='dropdown' /&gt",
+    "answer": "<select>"
+}, {
+    "question": "All HTML comment tags are enclosed in what ?",
+    "option1": "&lt&gt",
+    "option2": "&lt? and ?&gt",
+    "option3": "# and #",
+    "option4": "&lt!-- and --&gt",
+    "answer": "<!-- and -->"
+}, {
+    "question": "Where in an HTML document is the correct place to refer to an external style sheet?",
+    "option1": "At the top of the document",
+    "option2": "At the end of the document",
+    "option3": "In the section",
+    "option4": "In the &lthead&gt section",
+    "answer": "In the &lthead&gt section"
+}, {
+    "question": "The elements &ltDIV&gt and &ltSPAN&gt have the following characteristics",
+    "option1": "Element &ltDIV&gt inherits properties defined for &ltSPAN&gt in a stylesheet",
+    "option2": "Elements &ltSPAN&gt and &ltDIV&gt define content to be inline or block-level",
+    "option3": "&ltDIV&gt and &ltSPAN&gt are used as alternatives for the element &ltP&gt",
+    "option4": "&ltDIV&gt is used inside element &ltP&gt",
+    "answer": "Elements &ltSPAN&gt and &ltDIV&gt define content to be inline or block-level"
+}, {
+    "question": "Which of the following statement is not true regarding JavaScript?",
+    "option1": "JavaScript is an object-based language",
+    "option2": "JavaScript is event driven",
+    "option3": "JavaScript is a loosely typed language",
+    "option4": "A JavaScript embedded in an HTML document is compiled and executed by the client browser",
+    "answer": "A JavaScript embedded in an HTML document is compiled and executed by the client browser"
+}, {
+    "question": "In Javascript, which function is used to send messages to users requesting for text input?",
+    "option1": "Display() ",
+    "option2": "Prompt()",
+    "option3": "Alert() ",
+    "option4": "Confirm()",
+    "answer": "Prompt()"
+}, {
+    "question": "Using which tag we insert an JavaScript in HTML page?",
+    "option1": "&ltJavaScript type='text/javascript'&gt",
+    "option2": "&ltscript type='text/javascript'&gt",
+    "option3": "&ltJScript type='text/javascript'&gt",
+    "option4": "&ltHTMLScript type='text/javascript'&gt",
+    "answer": "<script type='text/javascript'>"
+}, {
+    "question": "Which of the following is true about links by default?",
+    "option1": "An unvisited link is underlined and blue",
+    "option2": "A visited link is underlined and red",
+    "option3": "An active link is underlined and purple",
+    "option4": "All the above",
+    "answer": "An unvisited link is underlined and blue"
+}, {
+    "question": "The href attribute in the link tag specifies the:",
+    "option1": "Destination of a link",
+    "option2": "Link",
+    "option3": "Hypertext",
+    "option4": "None of the above",
+    "answer": "Destination of a link"
+}, {
+    "question": "HTML Event Attributes onunload fires",
+    "option1": "When the browser window has been closed",
+    "option2": "When the browser window is minimized",
+    "option3": "When the browser window has changed focus to other window",
+    "option4": "After the page is finished loading",
+    "answer": "When the browser window has been closed"
+}, {
+    "question": "HTML Form Events ___________, fires the moment that the element loses focus.",
+    "option1": "onfocus",
+    "option2": "onchange",
+    "option3": "onblur",
+    "option4": "onlostfocus",
+    "answer": "onblur"
+}, {
+    "question": "What is cell padding?",
+    "option1": "Used to separate cell walls from their contents",
+    "option2": "Used to set space between cells",
+    "option3": "Used to provide width to a cell",
+    "option4": "None of the above",
+    "answer": "Used to separate cell walls from their contents"
+}]
