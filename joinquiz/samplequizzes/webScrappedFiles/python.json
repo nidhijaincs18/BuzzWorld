@@ -1,0 +1,157 @@
+[{
+        "question": "Which of the following commands will create a list?",
+        "option1": "list1 = list()",
+        "option2": "list1 = []",
+        "option3": "list1 = list([1, 2, 3])",
+        "option4": "all of the mentioned",
+        "answer": "all of the mentioned"
+    },
+    {
+        "question": " What is the output when we execute list(“hello”)?",
+        "option1": "[‘h’, ‘e’, ‘l’, ‘l’, ‘o’]",
+        "option2": "[‘hello’]",
+        "option3": "[‘llo’]",
+        "option4": "[‘olleh’]",
+        "answer": "[‘h’, ‘e’, ‘l’, ‘l’, ‘o’]"
+    },
+    {
+        "question": "Suppose list1 is [2445,133,12454,123], what is max(list1)?",
+        "option1": "2445",
+        "option2": "133",
+        "option3": "12454",
+        "option4": "123",
+        "answer": "12454"
+    },
+    {
+        "question": "To shuffle the list(say list1) what function do we use?",
+        "option1": "list1.shuffle()",
+        "option2": "shuffle(list1)",
+        "option3": "random.shuffle(list1)",
+        "option4": "random.shuffleList(list1)",
+        "answer": "random.shuffle(list1)"
+    },
+    {
+        "question": "Suppose list1 is [3, 4, 5, 20, 5, 25, 1, 3], what is list1 after list1.reverse()?",
+        "option1": "[3, 4, 5, 20, 5, 25, 1, 3]",
+        "option2": "[1, 3, 3, 4, 5, 5, 20, 25]",
+        "option3": "[25, 20, 5, 5, 4, 3, 3, 1]",
+        "option4": "[3, 1, 25, 5, 20, 5, 4, 3]",
+        "answer": "[3, 1, 25, 5, 20, 5, 4, 3]"
+    },
+    {
+        "question": "What will be the output of >>>'abcd'[2: ]",
+        "option1": "a",
+        "option2": "ab",
+        "option3": "cd",
+        "option4": "dc",
+        "answer": "cd"
+    },
+    {
+        "question": "The output of executing string.ascii_letters can also be achieved by:",
+        "option1": "string.ascii_lowercase_string.digits",
+        "option2": "string.ascii_lowercase+string.ascii_uppercase",
+        "option3": "string.letters",
+        "option4": "string.lowercase_string.uppercase",
+        "answer": "string.ascii_lowercase+string.ascii_uppercase"
+    },
+    {
+        "question": "What arithmetic operators cannot be used with strings?",
+        "option1": "+",
+        "option2": "*",
+        "option3": "-",
+        "option4": "All of the mentioned",
+        "answer": "-"
+    },
+    {
+        "question": "What will be the output of >>>print('new' 'line')",
+        "option1": "Error",
+        "option2": "Output equivalent to print ‘new\nline’",
+        "option3": "newline",
+        "option4": "new line",
+        "answer": "newline"
+    },
+    {
+        "question": "What will be the output of >>>print('abc DEF'.capitalize())",
+        "option1": "abc def",
+        "option2": "ABC DEF",
+        "option3": "Abc def",
+        "option4": "Abc Def",
+        "answer": "Abc def"
+    },
+    {
+        "question": "Which of the following is a Python tuple?",
+        "option1": "[1, 2, 3]",
+        "option2": "(1, 2, 3)",
+        "option3": "{1, 2, 3}",
+        "option4": "{}",
+        "answer": "(1, 2, 3)"
+    },
+    {
+        "question": "Suppose t = (1, 2, 4, 3), which of the following is incorrect?",
+        "option1": "print(t[3])",
+        "option2": "t[3] = 45",
+        "option3": "print(max(t))",
+        "option4": "print(len(t))",
+        "answer": "t[3] = 45"
+    },
+    {
+        "question": "The following Python code results in an error. s={2, 3, 4, [5, 6]}",
+        "option1": " True",
+        "option2": "False",
+        "answer": "True"
+    },
+    {
+        "question": "Set makes use of__________ and Dictionary makes use of ____________ ",
+        "option1": "keys, keys",
+        "option2": "key values, keys",
+        "option3": "keys, key values",
+        "option4": "key values, key values",
+        "answer": "keys, key values"
+    },
+    {
+        "question": "Which of the following lines of code will result in an error?",
+        "option1": "s={abs}",
+        "option2": "s={4, ‘abc’, (1,2)}",
+        "option3": "s={2, 2.2, 3, ‘xyz’}",
+        "option4": "s={san}",
+        "answer": "s={san}"
+    },
+    {
+        "question": "Which of the following functions cannot be used on heterogeneous sets?",
+        "option1": "pop",
+        "option2": "remove",
+        "option3": "update",
+        "option4": "sum",
+        "answer": "sum"
+    },
+    {
+        "question": "Input order is preserved in sets.",
+        "option1": "True",
+        "option2": "False",
+        "answer": "False"
+    },
+    {
+        "question": "Which of the following functions is a built-in function in python?",
+        "option1": "seed()",
+        "option2": "sqrt()",
+        "option3": "factorial()",
+        "option4": "print()",
+        "answer": "print()"
+    },
+    {
+        "question": "The function pow(x,y,z) is evaluated as:",
+        "option1": "(x**y)**z",
+        "option2": "(x**y) / z",
+        "option3": "(x**y) % z",
+        "option4": "(x**y)*z",
+        "answer": "(x**y) % z"
+    },
+    {
+        "question": "What will be the output of any([2>8, 4>2, 1>2])",
+        "option1": "Error",
+        "option2": "True",
+        "option3": "False",
+        "option4": "4>2",
+        "answer": "True"
+    }
+]
