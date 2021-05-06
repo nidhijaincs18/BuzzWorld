@@ -1,0 +1,161 @@
+[{
+        "question": "What is the 16-bit compiler allowable range for integer constants?",
+        "option1": "-3.4e38 to 3.4e38",
+        "option2": "-32767 to 32768",
+        "option3": "-32668 to 32667",
+        "option4": "-32768 to 32767",
+        "answer": "-32768 to 32767"
+    },
+    {
+        "question": "What is required in each C program?",
+        "option1": "The program must have at least one function.",
+        "option2": "The program does not require any function.",
+        "option3": "Input data",
+        "option4": "Output data",
+        "answer": "The program must have at least one function."
+    },
+    {
+        "question": "Which of the following comment is correct when a macro definition includes arguments?",
+        "option1": "The opening parenthesis should immediately follow the macro name.",
+        "option2": "There should be at least one blank between the macro name and the opening parenthesis.",
+        "option3": "There should be only one blank between the macro name and the opening parenthesis.",
+        "option4": "All the above comments are correct.",
+        "answer": "The opening parenthesis should immediately follow the macro name."
+    },
+    {
+        "question": "What is the output of this statement 'printf('%d',(a++))'? ",
+        "option1": "The value of (a + 1)",
+        "option2": "The current value of a",
+        "option3": "Error message",
+        "option4": "Garbage",
+        "answer": "The current value of a"
+    },
+    {
+        "question": "In the C language, the constant is defined _______.",
+        "option1": "Before main",
+        "option2": "After main",
+        "option3": "Anywhere, but starting on a new line",
+        "option4": "None of the these.",
+        "answer": "Anywhere, but starting on a new line"
+    },
+    {
+        "question": "How many times will the following loop execute?   for(j = 1; j <= 10; j = j-1)",
+        "option1": "Forever",
+        "option2": "Never",
+        "option3": "0",
+        "option4": "1",
+        "answer": "Forever"
+    },
+    {
+        "question": "A pointer is a memory address. Suppose the pointer variable has p address 1000, and that p is declared to have type int*, and an int is 4 bytes long. What address is represented by expression p + 2?",
+        "option1": "1002",
+        "option2": "1004",
+        "option3": "1006",
+        "option4": "1008 ",
+        "answer": "1008"
+    },
+    {
+        "question": "Which one of the following is a loop construct that will always be executed once?",
+        "option1": "for",
+        "option2": "while",
+        "option3": "switch",
+        "option4": "do while",
+        "answer": "do while"
+    },
+    {
+        "question": "When compiler accepts the request to use the variable as a register?",
+        "option1": "It is stored in CPU",
+        "option2": "It is stored in cache memory",
+        "option3": "It is stored in main memory",
+        "option4": "It is stored in secondary memory",
+        "answer": "It is stored in CPU"
+    },
+    {
+        "question": "Which data type can be stored in register?",
+        "option1": "int",
+        "option2": "long",
+        "option3": "float",
+        "option4": "all of the mentioned",
+        "answer": "all of the mentioned"
+    },
+    {
+        "question": "Which of the following operation is not possible in a register variable?",
+        "option1": "Reading the value into a register variable",
+        "option2": "Copy the value from a memory variable",
+        "option3": "Global declaration of register variable",
+        "option4": "All of the mentioned",
+        "answer": "All of the mentioned"
+    },
+    {
+        "question": "Which of the following is a correct format for declaration of function?",
+        "option1": "return-type function-name(argument type);",
+        "option2": "return-type function-name(argument type){}",
+        "option3": "return-type (argument type)function-name;",
+        "option4": "all of the mentioned",
+        "answer": "return-type function-name(argument type);"
+    },
+    {
+        "question": "Which of the following function declaration is illegal?",
+        "option1": "int 1bhk(int);",
+        "option2": "int 1bhk(int a);",
+        "option3": "int 2bhk(int*, int []);",
+        "option4": "all of the mentioned",
+        "answer": "all of the mentioned"
+    },
+    {
+        "question": "Can we use a function as a parameter of another function? [Eg: void wow(int func())]. ",
+        "option1": "Yes, and we can use the function value conveniently",
+        "option2": "Yes, but we call the function again to get the value, not as convenient as in using variable",
+        "option3": "No, C does not support it",
+        "option4": "This case is compiler dependent",
+        "answer": "No, C does not support it"
+    },
+    {
+        "question": "The value obtained in the function is given back to main by using ________ keyword.",
+        "option1": "return",
+        "option2": "static",
+        "option3": "new",
+        "option4": "volatile",
+        "answer": "return"
+    },
+    {
+        "question": "What is the scope of an external variable?",
+        "option1": "Whole source file in which it is defined",
+        "option2": "From the point of declaration to the end of the file in which it is defined",
+        "option3": "Any source file in a program",
+        "option4": "From the point of declaration to the end of the file being compiled",
+        "answer": "From the point of declaration to the end of the file being compiled"
+    },
+    {
+        "question": "What is the scope of a function?",
+        "option1": "Whole source file in which it is defined",
+        "option2": "rom the point of declaration to the end of the file in which it is defined",
+        "option3": "Any source file in a program",
+        "option4": "From the point of declaration to the end of the file being compiled",
+        "answer": "From the point of declaration to the end of the file being compiled"
+    },
+    {
+        "question": "Which of following is not accepted in C?",
+        "option1": "static a = 10; //static as",
+        "option2": "static int func (int); //parameter as static",
+        "option3": "static static int a; //a static variable prefixed with static",
+        "option4": "all of the mentioned",
+        "answer": "static static int a; //a static variable prefixed with static"
+    },
+    {
+        "question": "Which of the following cannot be static in C?",
+        "option1": "Variables",
+        "option2": "Functions",
+        "option3": "Structures",
+        "option4": "None of the mentioned",
+        "answer": "None of the mentioned"
+    },
+    {
+        "question": "What is the default return type if it is not specified in function definition?",
+        "option1": "void",
+        "option2": "int",
+        "option3": "double",
+        "option4": "short int",
+        "answer": "int"
+    }
+]
