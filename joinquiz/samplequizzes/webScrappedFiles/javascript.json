@@ -96,7 +96,7 @@
     },
     {
         "question": "The keyword or the property that you use to refer to an object through which they were invoked is _________",
-        "option1": " this",
+        "option1": "this",
         "option2": "to",
         "option3": "from",
         "option4": "object",
@@ -111,7 +111,7 @@
         "answer": "True"
     },
     {
-        "question": "he basic difference between JavaScript and Java is _________",
+        "question": "The basic difference between JavaScript and Java is _________",
         "option1": "There is no difference",
         "option2": "Functions are considered as fields",
         "option3": "Variables are specific",
