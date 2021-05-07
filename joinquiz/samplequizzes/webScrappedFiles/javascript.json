@@ -51,8 +51,8 @@
         "option1": "Prints an exception error",
         "option2": "Prints an overflow error",
         "option3": "Prints the value as such",
-        "option4": "Displays “Infinity” ",
-        "answer": "Displays “Infinity” "
+        "option4": "Displays 'Infinity'",
+        "answer": "Displays 'Infinity'"
     },
     {
         "question": "Which of the following is not considered as an error in JavaScript?",

@@ -3,6 +3,7 @@
         "option1": "am lying",
         "option2": "will lie",
         "option3": "will be lying",
+        "option4": "None of the above",
         "answer": "will be lying"
     },
     {
@@ -10,6 +11,7 @@
         "option1": "will",
         "option2": "would",
         "option3": "shall",
+        "option4": "None of the above",
         "answer": "would"
     },
     {
@@ -17,6 +19,7 @@
         "option1": "have",
         "option2": "would have",
         "option3": "will have",
+        "option4": "None of the above",
         "answer": "have"
     },
     {
@@ -24,13 +27,15 @@
         "option1": "go",
         "option2": "goes",
         "option3": "will go",
+        "option4": "None of the above",
         "answer": "go"
     },
     {
         "question": "You________ an accident if you go on driving like that.",
         "option1": "are having",
-        "option2": "will havee",
+        "option2": "will have",
         "option3": "would have",
+        "option4": "None of the above",
         "answer": "will have"
     },
     {
@@ -38,6 +43,7 @@
         "option1": "worked",
         "option2": "am working",
         "option3": "was working",
+        "option4": "None of the above",
         "answer": "was working"
     },
     {
@@ -45,6 +51,7 @@
         "option1": "was spending",
         "option2": "spend",
         "option3": "spent",
+        "option4": "None of the above",
         "answer": "spent"
     },
     {
@@ -52,6 +59,7 @@
         "option1": "rings",
         "option2": "rang",
         "option3": "was ringing",
+        "option4": "None of the above",
         "answer": "rang"
     },
     {
@@ -59,6 +67,7 @@
         "option1": "tastes",
         "option2": "is tasting",
         "option3": "tasted",
+        "option4": "None of the above",
         "answer": "tasted"
     },
     {
@@ -66,6 +75,7 @@
         "option1": "made",
         "option2": "were making",
         "option3": "had made",
+        "option4": "None of the above",
         "answer": "made"
     },
     {
@@ -73,6 +83,7 @@
         "option1": "have broken",
         "option2": "broke",
         "option3": "had broken",
+        "option4": "None of the above",
         "answer": "have broken"
     },
     {
@@ -80,6 +91,7 @@
         "option1": "was ringing",
         "option2": "rang",
         "option3": "have rung",
+        "option4": "None of the above",
         "answer": "rang"
     },
     {

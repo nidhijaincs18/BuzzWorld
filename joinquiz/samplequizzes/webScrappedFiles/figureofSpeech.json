@@ -3,6 +3,7 @@
         "option1": "Simile",
         "option2": "Metaphor",
         "option3": "Personification",
+        "option4": "None of the above",
         "answer": "Simile"
     },
     {
@@ -18,6 +19,7 @@
         "option1": "Simile",
         "option2": "Metaphor",
         "option3": "Oxymoron",
+        "option4": "None of the above",
         "answer": "Metaphor"
     },
     {
@@ -25,6 +27,7 @@
         "option1": "Personification",
         "option2": "Simile",
         "option3": "Metaphor",
+        "option4": "None of the above",
         "answer": "Metaphor"
     },
     {
@@ -32,6 +35,7 @@
         "option1": "Oxymoron",
         "option2": "Apostrophe",
         "option3": "Personification",
+        "option4": "None of the above",
         "answer": "Personification"
     },
     {
@@ -39,6 +43,7 @@
         "option1": "Personification",
         "option2": "Apostrophe",
         "option3": "Hyperbole",
+        "option4": "None of the above",
         "answer": "Apostrophe"
     },
     {
@@ -46,6 +51,7 @@
         "option1": "Personification",
         "option2": "Epigram",
         "option3": "Apostrophe",
+        "option4": "None of the above",
         "answer": "Personification"
     },
     {
@@ -53,6 +59,7 @@
         "option1": "Metaphor",
         "option2": "Apostrophe",
         "option3": "Hyperbole",
+        "option4": "None of the above",
         "answer": "Hyperbole"
     },
     {
@@ -60,6 +67,7 @@
         "option1": "Hyperbole",
         "option2": "Metaphor",
         "option3": "Oxymoron",
+        "option4": "None of the above",
         "answer": "Hyperbole"
     },
     {
@@ -67,6 +75,7 @@
         "option1": "Hyperbole",
         "option2": "Antithesis",
         "option3": "Oxymoron",
+        "option4": "None of the above",
         "answer": "Antithesis"
     },
     {
@@ -74,6 +83,7 @@
         "option1": "Euphemism",
         "option2": "Hyperbole",
         "option3": "Oxymoron",
+        "option4": "None of the above",
         "answer": "Hyperbole"
     },
     {

@@ -95,10 +95,12 @@
         "answer": "t[3] = 45"
     },
     {
-        "question": "The following Python code results in an error. s={2, 3, 4, [5, 6]}",
-        "option1": " True",
-        "option2": "False",
-        "answer": "True"
+        "question": "Why does the name of local variables start with an underscore discouraged?",
+        "option1": "To identify the variable",
+        "option2": "It confuses the interpreter",
+        "option3": "It indicates a private variable of a class",
+        "option4": "None of these",
+        "answer": "It indicates a private variable of a class"
     },
     {
         "question": "Set makes use of__________ and Dictionary makes use of ____________ ",
@@ -125,10 +127,12 @@
         "answer": "sum"
     },
     {
-        "question": "Input order is preserved in sets.",
-        "option1": "True",
-        "option2": "False",
-        "answer": "False"
+        "question": "Which of the following statements is correct regarding the object-oriented programming concept in Python?",
+        "option1": "Classes are real-world entities while objects are not real",
+        "option2": "Objects are real-world entities while classes are not real",
+        "option3": "Both objects and classes are real-world entities",
+        "option4": "All of the above",
+        "answer": "Objects are real-world entities while classes are not real"
     },
     {
         "question": "Which of the following functions is a built-in function in python?",

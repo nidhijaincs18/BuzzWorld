@@ -4,7 +4,7 @@
         "option2": "The applet makes the Java code secure and portable",
         "option3": "Use of exception handling",
         "option4": "Dynamic binding between objects",
-        "answer": "Bytecode is executed by the JVM"
+        "answer": "Bytecode is executed by JVM"
     },
     {
         "question": "Which of the following is not a Java features?",
@@ -127,10 +127,12 @@
         "answer": "Composition"
     },
     {
-        "question": "Method overriding is combination of inheritance and polymorphism?",
-        "option1": "True",
-        "option2": "False",
-        "answer": "True"
+        "question": "Method overriding is comprise of inheritance and polymorphism?",
+        "option1": "Inheritance",
+        "option2": "Polymorphism",
+        "option3": "Both A & B",
+        "option4": "None of the above",
+        "answer": "Both A & B"
     },
     {
         "question": "What is true about private constructor?",
