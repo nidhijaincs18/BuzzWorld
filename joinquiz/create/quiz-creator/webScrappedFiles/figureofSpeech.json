@@ -1,0 +1,121 @@
+[{
+        "question": "The righteous shall flourish as the palm tree.",
+        "option1": "Simile",
+        "option2": "Metaphor",
+        "option3": "Personification",
+        "option4": "None of the above",
+        "answer": "Simile"
+    },
+    {
+        "question": "Life is as tedious as a twice-told tale.",
+        "option1": "Simile",
+        "option2": "Metaphor",
+        "option3": "hyperbole",
+        "option4": "Personification",
+        "answer": "Simile"
+    },
+    {
+        "question": "The camel is the ship of the desert.",
+        "option1": "Simile",
+        "option2": "Metaphor",
+        "option3": "Oxymoron",
+        "option4": "None of the above",
+        "answer": "Metaphor"
+    },
+    {
+        "question": "Variety is the spice of life.",
+        "option1": "Personification",
+        "option2": "Simile",
+        "option3": "Metaphor",
+        "option4": "None of the above",
+        "answer": "Metaphor"
+    },
+    {
+        "question": "Pride goeth forth on horseback, grand and gay.",
+        "option1": "Oxymoron",
+        "option2": "Apostrophe",
+        "option3": "Personification",
+        "option4": "None of the above",
+        "answer": "Personification"
+    },
+    {
+        "question": "O Solitude! Where are the charms that sages have seen in thy face?",
+        "option1": "Personification",
+        "option2": "Apostrophe",
+        "option3": "Hyperbole",
+        "option4": "None of the above",
+        "answer": "Apostrophe"
+    },
+    {
+        "question": "Death lays his icy hands on kings.",
+        "option1": "Personification",
+        "option2": "Epigram",
+        "option3": "Apostrophe",
+        "option4": "None of the above",
+        "answer": "Personification"
+    },
+    {
+        "question": "Why, man, if the river were dry, I am able to fill it with tears.",
+        "option1": "Metaphor",
+        "option2": "Apostrophe",
+        "option3": "Hyperbole",
+        "option4": "None of the above",
+        "answer": "Hyperbole"
+    },
+    {
+        "question": "O Hamlet! Thou hast cleft my heart in twain.",
+        "option1": "Hyperbole",
+        "option2": "Metaphor",
+        "option3": "Oxymoron",
+        "option4": "None of the above",
+        "answer": "Hyperbole"
+    },
+    {
+        "question": "Man proposes, God disposes.",
+        "option1": "Hyperbole",
+        "option2": "Antithesis",
+        "option3": "Oxymoron",
+        "option4": "None of the above",
+        "answer": "Antithesis"
+    },
+    {
+        "question": "Here is the smell of blood still; all the perfumes of Arabia will not sweeten this little hand.",
+        "option1": "Euphemism",
+        "option2": "Hyperbole",
+        "option3": "Oxymoron",
+        "option4": "None of the above",
+        "answer": "Hyperbole"
+    },
+    {
+        "question": "My teacher has eyes in the back of her head.",
+        "option1": "Simile",
+        "option2": "Metaphor",
+        "option3": "Personification",
+        "option4": "Idiom",
+        "answer": "Idiom"
+    },
+    {
+        "question": "Her hair was like gravy, running brown off her head and clumping up on her shoulders.",
+        "option1": "Simile",
+        "option2": "Metaphor",
+        "option3": "Idiom",
+        "option4": "Personification",
+        "answer": "Simile"
+    },
+    {
+        "question": "There was a loud 'THUMP'coming from upstairs.'THUMP,THUMP,THUMP!' ",
+        "option1": "Simile",
+        "option2": "Onomatopoeia",
+        "option3": "Metaphor",
+        "option4": "Idiom",
+        "answer": "Onomatopoeia"
+    },
+    {
+        "question": "Her cheeks are big red apples from the cold.",
+        "option1": "Simile",
+        "option2": "Idiom",
+        "option3": "Metaphor",
+        "option4": "Personification",
+        "answer": "Metaphor"
+    }
+]

@@ -1,0 +1,121 @@
+[{
+        "question": "HDFS block size is larger as compared to the size of the disk blocks so that",
+        "option1": "Only HDFS files can be stored in the disk used.",
+        "option2": "The seek time is maximum",
+        "option3": "Transfer of a large files made of multiple disk blocks is not possible.",
+        "option4": "A single file larger than the disk size can be stored across many disks in the cluster.",
+        "answer": "A single file larger than the disk size can be stored across many disks in the cluster."
+    },
+    {
+        "question": "The main role of the secondary namenode is to",
+        "option1": "Copy the filesystem metadata from primary namenode.",
+        "option2": "Copy the filesystem metadata from NFS stored by primary namenode",
+        "option3": "Monitor if the primary namenode is up and running.",
+        "option4": "Periodically merge the namespace image with the edit log.",
+        "answer": "Periodically merge the namespace image with the edit log."
+    },
+    {
+        "question": "The client reading the data from HDFS filesystem in Hadoop",
+        "option1": "gets the data from the namenode",
+        "option2": "gets the block location from the datanode",
+        "option3": "gets only the block locations form the namenode",
+        "option4": "gets both the data and block location from the namenode",
+        "answer": "gets only the block locations form the namenode"
+    },
+    {
+        "question": "The hadfs command put is used to",
+        "option1": "Copy files from local file system to HDFS.",
+        "option2": "Copy files or directories from local file system to HDFS.",
+        "option3": "Copy files from from HDFS to local filesystem.",
+        "option4": "Copy files or directories from HDFS to local filesystem.",
+        "answer": "Copy files or directories from local file system to HDFS."
+    },
+    {
+        "question": "The namenode knows that the datanode is active using a mechanism known as",
+        "option1": "heartbeats",
+        "option2": "datapulse",
+        "option3": "h-signal",
+        "option4": "Active-pulse",
+        "answer": "heartbeats"
+    },
+    {
+        "question": "Running Start-dfs.sh results in",
+        "option1": "Starting namenode and datanode",
+        "option2": "Starting namenode only",
+        "option3": "Starting datanode only",
+        "option4": "Starting namenode and resource manager",
+        "answer": "Starting namenode and datanode"
+    },
+    {
+        "question": "When you increase the number of files stored in HDFS, The memory required by namenode",
+        "option1": "Increases",
+        "option2": "Decreases",
+        "option3": "Remains unchanged",
+        "option4": "May increase or decrease",
+        "answer": "Increases"
+    },
+    {
+        "question": "Which technology is used to store data in Hadoop?",
+        "option1": "HBase",
+        "option2": "Avro",
+        "option3": "Sqoop",
+        "option4": "Zookeeper",
+        "answer": "HBase"
+    },
+    {
+        "question": "What is distributed cache?",
+        "option1": "The distributed cache is special component on name node that will cache frequently used data for faster client response. It is used during reduce step.",
+        "option2": "The distributed cache is special component on data node that will cache frequently used data for faster client response. It is used during map step.",
+        "option3": "The distributed cache is a component that caches java objects.",
+        "option4": "The distributed cache is a component that allows developers to deploy jars for Map-Reduce processing.",
+        "answer": "The distributed cache is special component on data node that will cache frequently used data for faster client response. It is used during map step."
+    },
+    {
+        "question": "Which one of the following statements is true regarding <key,value> pairs of a MapReduce job?",
+        "option1": "A key class must implement Writable.",
+        "option2": "A key class must implement WritableComparable.",
+        "option3": "A value class must implement WritableComparable.",
+        "option4": "A value class must extend WritableComparable.",
+        "answer": "A key class must implement WritableComparable."
+    },
+    {
+        "question": "Hadoop differs from volunteer computing in",
+        "option1": "Volunteers donating CPU time and not network bandwidth.",
+        "option2": "Volunteers donating network bandwidth and not CPU time.",
+        "option3": "Hadoop cannot search for large prime numbers.",
+        "option4": "Only Hadoop can use mapreduce.",
+        "answer": "Volunteers donating CPU time and not network bandwidth."
+    },
+    {
+        "question": "When running on a pseudo distributed mode the replication factor is set to",
+        "option1": "2",
+        "option2": "1",
+        "option3": "0",
+        "option4": "3",
+        "answer": "1"
+    },
+    {
+        "question": "Under HDFS federation",
+        "option1": "Each namenode manages metadata of the entire filesystem.",
+        "option2": "Each namenode manages metadata of a portion of the filesystem.",
+        "option3": "Failure of one namenode causes loss of some metadata availability from the entire filesystem.",
+        "option4": "Each datanode registers with each namenode.",
+        "answer": "Each namenode manages metadata of a portion of the filesystem."
+    },
+    {
+        "question": "The property used to set the default filesystem for Hadoop in core-site.xml is-",
+        "option1": "filesystem.default",
+        "option2": "fs.defaultFS",
+        "option3": "fs.default",
+        "option4": "hdfs.default",
+        "answer": "fs.default"
+    },
+    {
+        "question": "The following is not permitted on HDFS files",
+        "option1": "Deleting",
+        "option2": "Renaming",
+        "option3": "Moving",
+        "option4": "Executing.",
+        "answer": "Executing."
+    }
+]

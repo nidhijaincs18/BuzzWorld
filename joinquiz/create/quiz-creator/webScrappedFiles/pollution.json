@@ -1,0 +1,161 @@
+[{
+        "question": "Who was the first scientist to coin the term SMOG and to describe the layers of SMOG?",
+        "option1": "Nikola Tesla",
+        "option2": "Stephen Hawking",
+        "option3": "Dr Henry Antoine",
+        "option4": "Nicolaus Copernicus",
+        "answer": "Dr Henry Antoine"
+    },
+    {
+        "question": "Which of the following pollutants are responsible for the cause of SMOG?",
+        "option1": "From incinerators",
+        "option2": "Emissions from vehicles",
+        "option3": "Both incinerators and emissions from vehicles",
+        "option4": "None of the above",
+        "answer": "Both incinerators and emissions from vehicles"
+    },
+    {
+        "question": "Which of the following is called the secondary air pollutant?",
+        "option1": "PANs",
+        "option2": "Ozone",
+        "option3": "Carbon monoxide",
+        "option4": "Nitrogen dioxide",
+        "answer": "Ozone"
+    },
+    {
+        "question": "Which of the following particles is called the particulate pollutants?",
+        "option1": "Ozone",
+        "option2": "Radon",
+        "option3": "Ethylene",
+        "option4": "Fly Ash",
+        "answer": "Fly Ash"
+    },
+    {
+        "question": "Which of the following agents is responsible for turning the Taj Mahal yellow?",
+        "option1": "Sulphur",
+        "option2": "Sulphur dioxide",
+        "option3": "Chlorine",
+        "option4": "Nitrogen dioxide",
+        "answer": "Sulphur dioxide"
+    },
+    {
+        "question": "Which of the following statements is true about SMOG?",
+        "option1": "SMOG is derived from the fog",
+        "option2": "SMOG is derived from smoke",
+        "option3": "SMOG is derived from water vapour",
+        "option4": "SMOG is derived from both fog and smoke",
+        "answer": "SMOG is derived from both fog and smoke"
+    },
+    {
+        "question": "What type of precautions should be taken to survive when the ozone level is high?",
+        "option1": "Drive less",
+        "option2": "Stay hydrated",
+        "option3": "Both A and B",
+        "option4": "Go for a long walk",
+        "answer": "Both A and B"
+    },
+    {
+        "question": "Which of the following statements is true about the Air Quality Index?",
+        "option1": "It predicts ozone levels in your area.",
+        "option2": "It indicates the colour of the air.",
+        "option3": "It determines the intensity of sound and sound pollution.",
+        "option4": "It estimates air pollution mainly sulphur content in the air.",
+        "answer": "It predicts ozone levels in your area."
+    },
+    {
+        "question": "The major photochemical smog is________.",
+        "option1": "Hydrogen peroxide",
+        "option2": "Chlorofluorocarbon",
+        "option3": "Peroxyacetyl nitrate",
+        "option4": "All of the above",
+        "answer": "Chlorofluorocarbon"
+    },
+    {
+        "question": "Which of the following diseases are caused by smog?",
+        "option1": "Rickets",
+        "option2": "Bronchitis",
+        "option3": "Breathing Problems",
+        "option4": "All of the above",
+        "answer": "All of the above"
+    },
+    {
+        "question": "How many different types of primary pollutants together contribute to about 90 per cent of the global air pollution?",
+        "option1": "Five",
+        "option2": "Three",
+        "option3": "Seven",
+        "option4": "None of the above",
+        "answer": "Five"
+    },
+    {
+        "question": "Which of the following agents is mainly responsible for the secondary pollutants?",
+        "option1": "Smog and Ozone",
+        "option2": "Sulphur trioxide",
+        "option3": "Nitrogen dioxide",
+        "option4": "All of the above",
+        "answer": "All of the above"
+    },
+    {
+        "question": "The Taj Mahal, Lotus Temple, Golden Temple, India Gate and other famous heritage monuments are being affected by _______.",
+        "option1": "Air pollution",
+        "option2": "Water pollution",
+        "option3": "Noise pollution",
+        "option4": "All of the above",
+        "answer": "Air pollution"
+    },
+    {
+        "question": "Which of the following gases are called Greenhouse gases?",
+        "option1": "Methane",
+        "option2": "Nitrogen",
+        "option3": "Carbon dioxide",
+        "option4": "Both a and c",
+        "answer": "Both a and c"
+    },
+    {
+        "question": "Which of the following rivers is called the world’s most polluted river?",
+        "option1": "Ganga River",
+        "option2": "Chenab River",
+        "option3": "Kaveri River",
+        "option4": "Yamuna River",
+        "answer": "Ganga River"
+    },
+    {
+        "question": "Which of the following techniques is used for reducing the total dissolved solids (TDS) in the water?",
+        "option1": "Osmosis",
+        "option2": "Ion exchange",
+        "option3": "Distillation",
+        "option4": "Both b and c",
+        "answer": "Both b and c"
+    },
+    {
+        "question": "Which of the following statements are true about CNG -Compressed natural gas?",
+        "option1": "It is a clean fuel",
+        "option2": "It is a harmful fuel",
+        "option3": "It is a polluting fuel",
+        "option4": "All of the above",
+        "answer": "It is a clean fuel"
+    },
+    {
+        "question": "Which of the following is mainly responsible for the causes of water pollution?",
+        "option1": "Afforestation",
+        "option2": "Oil refineries",
+        "option3": "Paper factories",
+        "option4": "Both b and c",
+        "answer": "Both b and c"
+    },
+    {
+        "question": "Chlorofluorocarbon are nonflammable chemicals mainly used in _________.",
+        "option1": "Perfumes",
+        "option2": "Refrigerators",
+        "option3": "Air conditioners",
+        "option4": "All of the above",
+        "answer": "All of the above"
+    },
+    {
+        "question": "Which of the following techniques is used to determine the concentration of odour compounds in the given water sample?",
+        "option1": "Settling",
+        "option2": "Flushing",
+        "option3": "Stripping",
+        "option4": "Chlorination",
+        "answer": "Stripping"
+    }
+]

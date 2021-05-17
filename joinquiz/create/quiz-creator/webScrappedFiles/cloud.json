@@ -1,0 +1,160 @@
+[{
+        "question": "Cloud computing is a ..............",
+        "option1": "reliable system",
+        "option2": "stateless system",
+        "option3": "stateful system",
+        "option4": "None of the above",
+        "answer": "stateless system"
+    },
+    {
+        "question": "Which option is related to service provided by Cloud ?",
+        "option1": "AaaS",
+        "option2": "Reliability",
+        "option3": "Sourcing",
+        "option4": "Ownership",
+        "answer": "Sourcing"
+    },
+    {
+        "question": "............. is the essential concept related to Cloud?",
+        "option1": "Reliability",
+        "option2": "Abstraction",
+        "option3": "Productivity",
+        "option4": "None of the above",
+        "answer": "Abstraction"
+    },
+    {
+        "question": "Which of the following can be identified as cloud?",
+        "option1": "Intranet",
+        "option2": "Hadoop",
+        "option3": "Web Applications",
+        "option4": "All of the above",
+        "answer": "Hadoop"
+    },
+    {
+        "question": "Which of the following option is the IaaS service provider?",
+        "option1": "EC1",
+        "option2": "EC2",
+        "option3": "EC10",
+        "option4": "Hybrid",
+        "answer": "EC2"
+    },
+    {
+        "question": "what is the most important area of concern in cloud computing?",
+        "option1": "Storage",
+        "option2": "Scalability",
+        "option3": "Security",
+        "option4": "None of the above",
+        "answer": "Security"
+    },
+    {
+        "question": "Which of the following feature allows you to optimize your system and capture all possible transactions?",
+        "option1": "elasticity",
+        "option2": "scalability",
+        "option3": "reliability",
+        "option4": "None of the above",
+        "answer": "elasticity"
+    },
+    {
+        "question": "What is surely an impediment to established businesses starting new enterprises?",
+        "option1": "Capitalization",
+        "option2": "Proposition",
+        "option3": "Globalization",
+        "option4": "None of the above",
+        "answer": "Capitalization"
+    },
+    {
+        "question": "What is the highest degree of integration in cloud computing?",
+        "option1": "AaaS",
+        "option2": "SaaS",
+        "option3": "PaaS",
+        "option4": "CaaS",
+        "answer": "SaaS"
+    },
+    {
+        "question": "Which of the following is not a major cloud computing platform?",
+        "option1": "Microsoft Azure",
+        "option2": "Amazon EC2",
+        "option3": "IBM Deep Blue",
+        "option4": "Google 101",
+        "answer": "IBM Deep Blue"
+    },
+    {
+        "question": "The Private cloud is a -",
+        "option1": "A cloud service inaccessible to anyone but the cultural elite",
+        "option2": "standard cloud service offered via the Internet",
+        "option3": "cloud architecture maintained within an enterprise data center.",
+        "option4": "All of the above",
+        "answer": "cloud architecture maintained within an enterprise data center."
+    },
+    {
+        "question": "Cloud Foundry is a -",
+        "option1": "industry wide PaaS initiative",
+        "option2": "VMware-led open source PaaS",
+        "option3": "factory that produces cloud components",
+        "option4": "None of the above",
+        "answer": "VMware-led open source PaaS"
+    },
+    {
+        "question": "Which of the following services that need to be negotiated in Service Level Agreements?",
+        "option1": "Logging",
+        "option2": "Auditing",
+        "option3": "Regulatory compliance",
+        "option4": "All of the above",
+        "answer": "All of the above"
+    },
+    {
+        "question": "Which of the following option allows different operating systems to run in their own memory space?",
+        "option1": "VMC",
+        "option2": "VMS",
+        "option3": "VMM",
+        "option4": "None of the above",
+        "answer": "VMM"
+    },
+    {
+        "question": "Which of the following service provider provides the least amount of built-in security?",
+        "option1": "SaaS",
+        "option2": "PaaS",
+        "option3": "IaaS",
+        "option4": "None of the above",
+        "answer": "IaaS"
+    },
+    {
+        "question": "Choose the correct statement",
+        "option1": "Platforms represent nearly the full cloud software stack",
+        "option2": "A platform in the cloud is a software layer that is used to create higher levels of service",
+        "option3": "Platforms often come replete with tools and utilities to aid in application design and deployment",
+        "option4": "All of the above",
+        "answer": "All of the above"
+    },
+    {
+        "question": "Which of the following is not a major type of cloud computing usage?",
+        "option1": "Platform as a Service",
+        "option2": "Software as a Service",
+        "option3": "Hardware as a Service",
+        "option4": "Infrastructure as a Service",
+        "answer": "Hardware as a Service"
+    },
+    {
+        "question": "Which of the following type of virtualization is also characteristic of cloud computing?",
+        "option1": "Storage",
+        "option2": "Application",
+        "option3": "CPU",
+        "option4": "All of the above",
+        "answer": "All of the above"
+    },
+    {
+        "question": "The technology used to distribute service requests to resources is referred to as:",
+        "option1": "Load performing",
+        "option2": "Load scheduling",
+        "option3": "Load balancing",
+        "option4": "None of the above",
+        "answer": "Load balancing"
+    }, {
+        "question": "Point out the correct statement:",
+        "option1": "A client can request access to a cloud service from any location",
+        "option2": "A cloud has multiple application instances and directs requests to an instance based on conditions",
+        "option3": "Computers can be partitioned into a set of virtual machines with each machine being assigned a workload",
+        "option4": "All of the mentioned",
+        "answer": "All of the mentioned"
+    }
+]

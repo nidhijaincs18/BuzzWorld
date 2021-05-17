@@ -46,16 +46,23 @@ input[type=textarea] {
     align-items: center;
 }
 
-.title input {
+.title input,
+.title select {
     width: 400px;
     padding: 7px 10px;
     border-radius: 7px;
+    color: #334443;
     border: 1px solid #008080;
 }
 
-.title input:focus {
+.title input:focus,
+.title select:focus {
     outline: none;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+option {
+    color: rgb(3, 3, 3);
 }
 
 

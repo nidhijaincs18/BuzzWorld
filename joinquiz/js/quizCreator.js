@@ -1,5 +1,91 @@
 var socket = io();
-$.getJSON("AvattoNetworkingQuestions2.json", function(data) {
+
+var topic = "AvattoNetworkingQuestions";
+$('#topic').change(function() {
+    $('#predefined').empty();
+    window.topic = $(this).val();
+    if (window.topic === "AvattoNetworkingQuestions") {
+
+        $.getJSON("webScrappedFiles/AvattoNetworkingQuestions.json", function(data) {
+            var doc = '';
+            var count = 1;
+            $.each(data, function(key, value) {
+
+                doc += '<div class="question"> <div class="header">';
+
+                doc += '<div><p>Q' + count + ".  <span class='ques'>" +
+                    value.question + '</span></p></div><button class="addbtn"><i class="fas fa-plus "></i> Add</button></div>';
+                doc += ' <div class="body">';
+                doc += '<div class="answers option1"><p> A. ' +
+                    value.option1 + '</p></div>';
+
+                doc += '<div class="answers option2"><p> B. ' +
+                    value.option2 + '</p></div>';
+
+                doc += '<div class="answers option3"><p> C. ' +
+                    value.option3 + '</p></div>';
+
+                doc += '<div class="answers option4"><p> D. ' +
+                    value.option4 + '</p></div></div>';
+                doc += '<div class="footer"><div class="crrctanswer">'
+                doc += '<p>' +
+                    value.answer + '</p></div></div>';
+
+                doc += '</div>';
+
+
+                $('#predefined').append(doc);
+                doc = '';
+                count++;
+            });
+        });
+    } else {
+        $.getJSON("webScrappedFiles/" + window.topic + ".json", function(data) {
+            var doc = '';
+            var count = 1;
+            $.each(data, function(key, value) {
+
+                doc += '<div class="question"> <div class="header">';
+
+                doc += '<div><p>Q' + count + ".  <span class='ques'>" +
+                    value.question + '</span></p></div><button class="addbtn"><i class="fas fa-plus "></i> Add</button></div>';
+                doc += ' <div class="body">';
+                doc += '<div class="answers option1"><p> A. ' +
+                    value.option1 + '</p></div>';
+
+                doc += '<div class="answers option2"><p> B. ' +
+                    value.option2 + '</p></div>';
+
+                doc += '<div class="answers option3"><p> C. ' +
+                    value.option3 + '</p></div>';
+
+                doc += '<div class="answers option4"><p> D. ' +
+                    value.option4 + '</p></div></div>';
+                doc += '<div class="footer"><div class="crrctanswer">'
+                var answer = ""
+                if (value.answer.trim() === value.option1) {
+                    answer = "Option: A";
+                } else if (value.answer.trim() === value.option2) {
+                    answer = "Option: B";
+                } else if (value.answer.trim() === value.option2) {
+                    answer = "Option: C";
+                } else {
+                    answer = "Option: D";
+                }
+                doc += '<p>' + answer + '</p></div></div>';
+
+                doc += '</div>';
+
+
+                $('#predefined').append(doc);
+                doc = '';
+                count++;
+            });
+        });
+    }
+})
+
+$.getJSON("webScrappedFiles/AvattoNetworkingQuestions.json", function(data) {
     var doc = '';
     var count = 1;
     $.each(data, function(key, value) {
@@ -25,7 +111,6 @@ $.getJSON("AvattoNetworkingQuestions2.json", function(data) {
             value.answer + '</p></div></div>';
 
         doc += '</div>';
-
 
         $('#predefined').append(doc);
         doc = '';

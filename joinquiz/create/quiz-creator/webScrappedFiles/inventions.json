@@ -1,0 +1,121 @@
+[{
+        "question": "Name the scientist who had discovered that some molecules have mirror images?",
+        "option1": "Lord Kelvin",
+        "option2": "Louis Pasteur",
+        "option3": "Robert Hooke",
+        "option4": "Henry Moseley",
+        "answer": "Louis Pasteur"
+    },
+    {
+        "question": "Who is known as the father of plastic surgery?",
+        "option1": "Charaka",
+        "option2": "G.D. Naid",
+        "option3": "Sushruta",
+        "option4": "None of the above",
+        "answer": "Sushruta"
+    },
+    {
+        "question": "Who invented the safety break, which stop the elevator from crashing?",
+        "option1": "Thomas Edison",
+        "option2": "Eli Whitney",
+        "option3": "Henry Ford",
+        "option4": "Elisha Otis",
+        "answer": "Elisha Otis"
+    },
+    {
+        "question": "The Father of white revolution is ",
+        "option1": "Verghese Kurein",
+        "option2": "Patanjali",
+        "option3": "Jagadish Chandra Bose",
+        "option4": "Raja Ramanna",
+        "answer": "Verghese Kurein"
+    },
+    {
+        "question": "Who built the first working, programmable, electro mechanical computer?",
+        "option1": "Konrad Zuse",
+        "option2": "Laszlo Jozsef Biro",
+        "option3": "Brandenburg",
+        "option4": "Karl Benz",
+        "answer": "Konrad Zuse"
+    },
+    {
+        "question": "Who discovered the iridium layer and won Nobel Prize also?",
+        "option1": "Henry Moseley",
+        "option2": "Pierre Curie",
+        "option3": "Santiago Ramon",
+        "option4": "Luis Alvarez",
+        "answer": "Luis Alvarez"
+    },
+    {
+        "question": "Who is known as the father of neuroscience?",
+        "option1": "Alessandro Volta",
+        "option2": "Santaigo Ramony Cajal",
+        "option3": "Salim Ali",
+        "option4": "None of the above",
+        "answer": "Santaigo Ramony Cajal"
+    },
+    {
+        "question": "Who is the founder of oceanography?",
+        "option1": "Susumu Tonegawa",
+        "option2": "Alhazen",
+        "option3": "Karl Landsteiner",
+        "option4": "Matthew Maury",
+        "answer": "Matthew Maury"
+    },
+    {
+        "question": "Oxygen was independently discovered by",
+        "option1": "Rutherford",
+        "option2": "William Ramsay",
+        "option3": "Joseph Priestley",
+        "option4": "Neils Bohr",
+        "answer": "Joseph Priestley"
+    },
+    {
+        "question": "Which of the following inventions were done by Thomas Alva Edison?",
+        "option1": "Incandescent lamp",
+        "option2": "Phonograph C (Gramophone) and microphone",
+        "option3": "Carbon telephone transmitters",
+        "option4": "All of the above",
+        "answer": "All of the above"
+    },
+    {
+        "question": "Galileo was an Italian astronomer who",
+        "option1": "developed the telescope",
+        "option2": "Discovers four satellites of Jupiter",
+        "option3": "Discovered that the movement of pendulum produces a regular time measurement",
+        "option4": "All of the above",
+        "answer": "All of the above"
+    },
+    {
+        "question": "The velocity of light was first measured by",
+        "option1": "Romer",
+        "option2": "Galileo",
+        "option3": "Einstein",
+        "option4": "Newton",
+        "answer": "Romer"
+    },
+    {
+        "question": "Wright Brothers are regarded inventors of the",
+        "option1": "Balloon",
+        "option2": "Aeroplane",
+        "option3": "Bicycle",
+        "option4": "None of the above",
+        "answer": "Aeroplane"
+    },
+    {
+        "question": "Who invented the Spinning Jenny?",
+        "option1": "Thornton Hargreaves",
+        "option2": "Peter Hargreaves",
+        "option3": "James Hargreaves",
+        "option4": "Simon Hargreaves",
+        "answer": "James Hargreaves"
+    },
+    {
+        "question": "What inspired reflecting road lights to be invented?",
+        "option1": "Car door reflecting mirrors",
+        "option2": "The sun light on the windshield",
+        "option3": "Sun light on steel posts on road sides",
+        "option4": "The light a cat’s eye gave off on a fence",
+        "answer": "The light a cat’s eye gave off on a fence"
+    }
+]

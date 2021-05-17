@@ -24,6 +24,47 @@ var url = "mongodb://localhost:27017/";
 
 app.use(express.static(publicPath));
 
+app.use(express.urlencoded({ extended: true }));
+app.use(express.json());
+
+
+app.get("/log-in", function(req, res) {
+    res.sendFile(publicPath + "/login.html");
+});
+app.get("/register", function(req, res) {
+    res.sendFile(publicPath + "/register.html");
+});
+
+
+// app.post('/login/login', (req, res) => {
+//     console.log(req.body);
+//     if (req.body.email == 'admin@gmail' && req.body.password == '123') {
+//         // to use request.body, you need to import body-parser package
+//         console.log("Successful");
+//         res.redirect(publicPath + "/joinquiz");
+
+//     } else {
+//         res.send('Invalid Login');
+//     }
+// });
+// app.post('/registered', urlencodedParser, function(req, res) {
+
+//       var user = new User({
+//         name: req.body.name,
+//         email: req.body.email,
+//         password: req.body.password
+//       });
+
+//       user.save(function(err) {
+//         if (err) throw err;
+//         console.log('User saved successfully!');
+
+//       });
+// db.createUser()
+
+
+//   });
+
 //Starting server on port 3000
 server.listen(3000, () => {
     console.log("Server started on port 3000");

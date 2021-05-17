@@ -1,0 +1,201 @@
+[{
+        "question": "How can we describe an array in the best possible way?",
+        "option1": "The Array shows a hierarchical structure.",
+        "option2": "Arrays are immutable.",
+        "option3": "Container that stores the elements of similar types",
+        "option4": "The Array is not a data structure",
+        "answer": "Container that stores the elements of similar types"
+    },
+    {
+        "question": "Which of the following is the advantage of the array data structure?",
+        "option1": "Elements of mixed data types can be stored.",
+        "option2": "Easier to access the elements in an array",
+        "option3": "Index of the first element starts from 1.",
+        "option4": "Elements of an array cannot be sorted",
+        "answer": "Easier to access the elements in an array"
+    },
+    {
+        "question": "Which of the following highly uses the concept of an array?",
+        "option1": "Binary Search tree",
+        "option2": "Caching",
+        "option3": "Spatial locality",
+        "option4": "Scheduling of Processes",
+        "answer": "Spatial locality"
+    },
+    {
+        "question": "Which of the following is the disadvantage of the array?",
+        "option1": "Stack and Queue data structures can be implemented through an array.",
+        "option2": "Index of the first element in an array can be negative",
+        "option3": "Wastage of memory if the elements inserted in an array are lesser than the allocated size",
+        "option4": "Elements can be accessed sequentially.",
+        "answer": "Wastage of memory if the elements inserted in an array are lesser than the allocated size"
+    },
+    {
+        "question": "Which one of the following is the size of int arr[9] assuming that int is of 4 bytes?",
+        "option1": "9",
+        "option2": "36",
+        "option3": "35",
+        "option4": "None of the above",
+        "answer": "36"
+    },
+    {
+        "question": "Which one of the following is the process of inserting an element in the stack?",
+        "option1": "Insert",
+        "option2": "Add",
+        "option3": "Push",
+        "option4": "Append",
+        "answer": "Push"
+    },
+    {
+        "question": "When the user tries to delete the element from the empty stack then the condition is said to be a ____",
+        "option1": "Underflow",
+        "option2": "Garbage Collection",
+        "option3": "Overflow",
+        "option4": "None of the above",
+        "answer": "Underflow"
+    },
+    {
+        "question": "Which one of the following is not the application of the stack data structure",
+        "option1": "String reversal",
+        "option2": "Recursion",
+        "option3": "Backtracking",
+        "option4": "Asynchronous data transfer",
+        "answer": "Asynchronous data transfer"
+    },
+    {
+        "question": "Which data structure is mainly used for implementing the recursive algorithm?",
+        "option1": "Queue",
+        "option2": "Stack",
+        "option3": "Binary Tree",
+        "option4": "Linked List",
+        "answer": "Stack"
+    },
+    {
+        "question": "Which data structure is required to convert the infix to prefix notation?",
+        "option1": "Stack",
+        "option2": "Linked list",
+        "option3": "Binary tree",
+        "option4": "Queue",
+        "answer": "Stack"
+    },
+    {
+        "question": "Which of the following is the infix expression?",
+        "option1": "A+B*C",
+        "option2": "+A*BC",
+        "option3": "ABC+*",
+        "option4": "None of the above",
+        "answer": "A+B*C"
+    },
+    {
+        "question": "Which of the following is the prefix form of A+B*C?",
+        "option1": "A+(BC*)",
+        "option2": "+AB*C",
+        "option3": "ABC+*",
+        "option4": "+A*BC",
+        "answer": "+A*BC"
+    },
+    {
+        "question": "Which of the following is not the correct statement for a stack data structure?",
+        "option1": "Arrays can be used to implement the stack",
+        "option2": "Stack follows FIFO",
+        "option3": "Elements are stored in a sequential manner",
+        "option4": "Top of the stack contains the last inserted element",
+        "answer": "Stack follows FIFO"
+    },
+    {
+        "question": "Which one of the following node is considered the top of the stack if the stack is implemented using the linked list?",
+        "option1": "First node",
+        "option2": "Second node",
+        "option3": "Last node",
+        "option4": "Middle node",
+        "answer": "First node"
+    },
+    {
+        "question": "Which of the following principle does Queue use?",
+        "option1": "LIFO principle",
+        "option2": "FIFO principle",
+        "option3": "Linear tree",
+        "option4": "Ordered Array",
+        "answer": "FIFO principle"
+    },
+    {
+        "question": "Which one of the following is the overflow condition if linear queue is implemented using an array with a size MAX_SIZE?",
+        "option1": "rear = front",
+        "option2": "rear = front+1",
+        "option3": "rear = MAX_SIZE -1",
+        "option4": "rear = MAX_SIZE",
+        "answer": "rear = MAX_SIZE -1"
+    },
+    {
+        "question": "Which one of the following is the overflow condition if a circular queue is implemented using array having size MAX?",
+        "option1": "rear= MAX-1",
+        "option2": "rear= MAX",
+        "option3": "front=(rear+1) mod max",
+        "option4": "None of the above",
+        "answer": "front=(rear+1) mod max"
+    },
+    {
+        "question": "The time complexity of enqueue operation in Queue is __",
+        "option1": "O(1)",
+        "option2": "O(n)",
+        "option3": "O(logn)",
+        "option4": "O(nlogn)",
+        "answer": "O(1)"
+    },
+    {
+        "question": "How many Queues are required to implement a Stack?",
+        "option1": "3",
+        "option2": "2",
+        "option3": "1",
+        "option4": "4",
+        "answer": "2"
+    },
+    {
+        "question": "Which data structure is the best for implementing a priority queue?",
+        "option1": "Stack",
+        "option2": "Linked List",
+        "option3": "Array",
+        "option4": "Heap",
+        "answer": "Heap"
+    },
+    {
+        "question": "A linear data structure in which insertion and deletion operations can be performed from both the ends is___",
+        "option1": "Queue",
+        "option2": "Deque",
+        "option3": "Priority queue",
+        "option4": "Circular Queue",
+        "answer": "Deque"
+    },
+    {
+        "question": "Which of the following data structure allows you to insert the elements from both the ends while deletion from only one end?",
+        "option1": "Input-restricted queue",
+        "option2": "Output-restricted queue",
+        "option3": "Priority Queue",
+        "option4": "None of the above",
+        "answer": "Output-restricted queue"
+    },
+    {
+        "question": "Which of the following statement is not true about the doubly linked list?",
+        "option1": "We can traverse in both the directions.",
+        "option2": "It requires extra space",
+        "option3": "Implementation of doubly linked list is easier than the singly linked list",
+        "option4": "It stores the addresses of the next and the previous node",
+        "answer": "Implementation of doubly linked list is easier than the singly linked list"
+    },
+    {
+        "question": "What is the maximum number of children that a node can have in a binary tree?",
+        "option1": "3",
+        "option2": "1",
+        "option3": "4",
+        "option4": "2",
+        "answer": "2"
+    },
+    {
+        "question": "How can we define a AVL tree?",
+        "option1": "A tree which is binary search tree and height balanced tree.",
+        "option2": "A tree which is a binary search tree but unbalanced tree.",
+        "option3": "A tree with utmost two children",
+        "option4": "A tree with utmost three children",
+        "answer": "A tree which is binary search tree and height balanced tree."
+    }
+]

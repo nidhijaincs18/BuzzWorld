@@ -1,0 +1,121 @@
+[{
+        "question": "This time tomorrow, I ________ on the beach.",
+        "option1": "am lying",
+        "option2": "will lie",
+        "option3": "will be lying",
+        "option4": "None of the above",
+        "answer": "will be lying"
+    },
+    {
+        "question": "She said that she ______ help me.",
+        "option1": "will",
+        "option2": "would",
+        "option3": "shall",
+        "option4": "None of the above",
+        "answer": "would"
+    },
+    {
+        "question": "Phone me when you ______ time.",
+        "option1": "have",
+        "option2": "would have",
+        "option3": "will have",
+        "option4": "None of the above",
+        "answer": "have"
+    },
+    {
+        "question": "I will follow you wherever you ________",
+        "option1": "go",
+        "option2": "goes",
+        "option3": "will go",
+        "option4": "None of the above",
+        "answer": "go"
+    },
+    {
+        "question": "You________ an accident if you go on driving like that.",
+        "option1": "are having",
+        "option2": "will have",
+        "option3": "would have",
+        "option4": "None of the above",
+        "answer": "will have"
+    },
+    {
+        "question": "When you phoned, I __________ in the garage.",
+        "option1": "worked",
+        "option2": "am working",
+        "option3": "was working",
+        "option4": "None of the above",
+        "answer": "was working"
+    },
+    {
+        "question": "I _______ all my childhood in South India.",
+        "option1": "was spending",
+        "option2": "spend",
+        "option3": "spent",
+        "option4": "None of the above",
+        "answer": "spent"
+    },
+    {
+        "question": "The phone ________ while I was having a bath.",
+        "option1": "rings",
+        "option2": "rang",
+        "option3": "was ringing",
+        "option4": "None of the above",
+        "answer": "rang"
+    },
+    {
+        "question": "I tried a little of the soup to see how it ________",
+        "option1": "tastes",
+        "option2": "is tasting",
+        "option3": "tasted",
+        "option4": "None of the above",
+        "answer": "tasted"
+    },
+    {
+        "question": "When we were children we _________ our own toys.",
+        "option1": "made",
+        "option2": "were making",
+        "option3": "had made",
+        "option4": "None of the above",
+        "answer": "made"
+    },
+    {
+        "question": "I can't dance because I _________ my leg.",
+        "option1": "have broken",
+        "option2": "broke",
+        "option3": "had broken",
+        "option4": "None of the above",
+        "answer": "have broken"
+    },
+    {
+        "question": "I __________ the bell six times but no one opened the door.",
+        "option1": "was ringing",
+        "option2": "rang",
+        "option3": "have rung",
+        "option4": "None of the above",
+        "answer": "rang"
+    },
+    {
+        "question": "What ________ for breakfast?",
+        "option1": "do usually you have",
+        "option2": "are you usually having",
+        "option3": "have you usually",
+        "option4": "do you usually have",
+        "answer": "do you usually have"
+    },
+    {
+        "question": "My brother ________ very hard at the moment, because some of his colleagues are off sick. ",
+        "option1": "is working",
+        "option2": "work",
+        "option3": "working",
+        "option4": "works",
+        "answer": "is working"
+    },
+    {
+        "question": "A: How's your brother? B: He's fine. He ________ hard at the moment, because he's got his final exams next month.",
+        "option1": "studies",
+        "option2": "studys",
+        "option3": "is study",
+        "option4": "is studying",
+        "answer": "is studying"
+    }
+]

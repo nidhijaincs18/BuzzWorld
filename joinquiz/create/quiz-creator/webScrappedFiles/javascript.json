@@ -1,0 +1,201 @@
+[{
+        "question": "The script tag must be placed in __________",
+        "option1": "the head tag",
+        "option2": "the head or body",
+        "option3": "the title or head",
+        "option4": "after the body tag",
+        "answer": "the head or body"
+    },
+    {
+        "question": " JavaScript is ideal to ________",
+        "option1": "make computations in HTML simpler",
+        "option2": "minimize storage requirements on the web server",
+        "option3": "increase the download time for the client",
+        "option4": "increase the loading time of the website",
+        "answer": "minimize storage requirements on the web server"
+    },
+    {
+        "question": " JavaScript can be written __________",
+        "option1": "directly into JS file and included into HTML",
+        "option2": "directly on the server page",
+        "option3": "directly into HTML pages",
+        "option4": "directly into the css file",
+        "answer": "directly into JS file and included into HTML"
+    },
+    {
+        "question": "Which of the following Attribute is used to include External JS code inside your HTML Document?",
+        "option1": "src",
+        "option2": "ext",
+        "option3": "script",
+        "option4": "link",
+        "answer": "src"
+    },
+    {
+        "question": " JavaScript Code can be called by using ___________",
+        "option1": "RMI",
+        "option2": "Triggering Event",
+        "option3": "Preprocessor",
+        "option4": "Function/Method",
+        "answer": "Function/Method"
+    },
+    {
+        "question": "The type of a variable that is volatile is _______________",
+        "option1": "Volatile variable",
+        "option2": "Mutable variable",
+        "option3": "Immutable variable",
+        "option4": "Dynamic variable",
+        "answer": "Mutable variable"
+    },
+    {
+        "question": "JavaScript _________ when there is an indefinite or an infinite value during an arithmetic computation.",
+        "option1": "Prints an exception error",
+        "option2": "Prints an overflow error",
+        "option3": "Prints the value as such",
+        "option4": "Displays 'Infinity'",
+        "answer": "Displays 'Infinity'"
+    },
+    {
+        "question": "Which of the following is not considered as an error in JavaScript?",
+        "option1": "Syntax error",
+        "option2": "Missing of semicolons",
+        "option3": "Division by zero",
+        "option4": "Missing of Bracket",
+        "answer": "Division by zero"
+    },
+    {
+        "question": "The escape sequence ‘\f’ stands for _________",
+        "option1": "Floating numbers",
+        "option2": "Representation of functions that returns a value",
+        "option3": "\f is not present in JavaScript",
+        "option4": "Form feed",
+        "answer": "Form feed"
+    },
+    {
+        "question": "The statement a===b refers to _________",
+        "option1": "Both a and b are equal in value, type and reference address",
+        "option2": "Both a and b are equal in value",
+        "option3": "Both a and b are equal in value and type",
+        "option4": "There is no such statement",
+        "answer": "Both a and b are equal in value and type"
+    },
+    {
+        "question": "Assume that we have to convert “false” that is a non-string to string. The command that we use is (without invoking the “new” operator).",
+        "option1": "false.toString()",
+        "option2": "String(false)",
+        "option3": "String newvariable=”false”",
+        "option4": "Both false.toString() and String(false)",
+        "answer": "Both false.toString() and String(false)"
+    },
+    {
+        "question": "The behaviour of the instances present of a class inside a method is defined by __________",
+        "option1": "Method",
+        "option2": "Classes",
+        "option3": "Interfaces",
+        "option4": "Classes and Interfaces",
+        "answer": "Classes"
+    },
+    {
+        "question": "The keyword or the property that you use to refer to an object through which they were invoked is _________",
+        "option1": "this",
+        "option2": "to",
+        "option3": "from",
+        "option4": "object",
+        "answer": "this"
+    },
+    {
+        "question": "What will be the output of ' var o = new F();o.constructor === F ' ",
+        "option1": "False",
+        "option2": "True",
+        "option3": "0",
+        "option4": "1",
+        "answer": "True"
+    },
+    {
+        "question": "The basic difference between JavaScript and Java is _________",
+        "option1": "There is no difference",
+        "option2": "Functions are considered as fields",
+        "option3": "Variables are specific",
+        "option4": "Functions are values, and there is no hard distinction between methods and fields",
+        "answer": "Functions are values, and there is no hard distinction between methods and fields"
+    },
+    {
+        "question": "The meaning for Augmenting classes is that ___________",
+        "option1": "objects inherit prototype properties even in a dynamic state",
+        "option2": "objects inherit prototype properties only in a dynamic state",
+        "option3": "objects inherit prototype properties in the static state",
+        "option4": "object doesn’t inherit prototype properties in the static state",
+        "answer": "objects inherit prototype properties even in a dynamic state"
+    },
+    {
+        "question": "The property of JSON() method is __________",
+        "option1": "it can be invoked manually as object.JSON()",
+        "option2": "it will be automatically invoked by the compiler",
+        "option3": "it is invoked automatically by the JSON.stringify() method",
+        "option4": "it cannot be invoked in any form",
+        "answer": "it is invoked automatically by the JSON.stringify() method"
+    },
+    {
+        "question": "The let keyword cannot be used ___________",
+        "option1": "as a substitute of var",
+        "option2": "as a block statement to define new variables",
+        "option3": "to define variables that are scoped to a single expression",
+        "option4": "in a else if loop, as a substitute for var",
+        "answer": "in a else if loop, as a substitute for var"
+    },
+    {
+        "question": "The main difference between the variables declared with var and with let is:",
+        "option1": "var is confined to a particular function but let is not",
+        "option2": "let is confined to a particular function but var is not",
+        "option3": "var defines values based on conditions but let does not",
+        "option4": "let doesn’t let you change the value of the variable",
+        "answer": "let is confined to a particular function but var is not"
+    },
+    {
+        "question": "Which of the following is a way of embedding Client-side JavaScript code within HTML documents?",
+        "option1": "From javascript:encoding",
+        "option2": "External file specified by the src attribute of a “script” tag",
+        "option3": "By using a header tag",
+        "option4": "By using body tag",
+        "answer": "External file specified by the src attribute of a “script” tag"
+    },
+    {
+        "question": "One of the main advantage of using src attribute is ____________",
+        "option1": "It becomes self-cached",
+        "option2": "It makes the HTML file modular",
+        "option3": "t restricts manipulation in the HTML file",
+        "option4": "It simplifies the HTML files",
+        "answer": "It simplifies the HTML files"
+    },
+    {
+        "question": "The localStorage and sessionStorage belongs to ___________",
+        "option1": "Window object",
+        "option2": "Element object",
+        "option3": "Hash object",
+        "option4": "DOM object",
+        "answer": "Window object"
+    },
+    {
+        "question": "What is the main difference between localStorage and sessionStorage?",
+        "option1": "Lifetime",
+        "option2": "Scope",
+        "option3": "Both Lifetime and Scope",
+        "option4": "Storage Location",
+        "answer": "Both Lifetime and Scope"
+    },
+    {
+        "question": "Which is the function used to retrieve a value?",
+        "option1": "get()",
+        "option2": "retrieve()",
+        "option3": "retrieveItem()",
+        "option4": "getItem()",
+        "answer": "getItem()"
+    },
+    {
+        "question": "Which of the following frameworks focuses on DOM and Ajax utilities?",
+        "option1": "jQuery",
+        "option2": "Prototype",
+        "option3": "Dojo",
+        "option4": "Both jQuery and Prototype",
+        "answer": "Both jQuery and Prototype"
+    }
+]

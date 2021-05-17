@@ -1,0 +1,128 @@
+.base-container {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    user-select: none;
+}
+
+.left-container {
+    display: flex;
+    justify-content: center;
+}
+
+.right-container {
+    align-items: center;
+}
+
+.content {
+    font-size: 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    color: gray;
+    font-weight: bold;
+}
+
+.text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form {
+    margin-top: 3em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    width: fit-content;
+}
+
+label {
+    font-size: 1em;
+    height: 37px;
+    width: 37px;
+    padding: 0 5px;
+    background-color: #008088;
+    color: white;
+}
+
+label .fa {
+    display: flex;
+    height: 37px;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    min-width: 16em;
+    height: 37px;
+    padding: 0px 10px;
+    font-size: .9em;
+    background-color: #f3f3f3;
+    border: 0;
+    border-radius: 4px;
+    margin-bottom: 13px;
+    transition: all 250ms ease-in-out;
+}
+
+input:focus {
+    outline: none;
+    box-shadow: 0px 0px 4px 0.8px #008088;
+}
+
+.forget {
+    margin-top: -15px;
+    margin-right: -18px;
+    display: flex;
+    width: 22em;
+    color: #008088;
+    justify-content: flex-end;
+    font-size: .75em;
+    font-weight: bold;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.footer button {
+    width: 15em;
+    background-color: #008088;
+    color: white;
+    border: none;
+    padding: 7px;
+    outline: none;
+}
+
+.footer-text {
+    margin-top: 1em;
+    color: gray;
+    font-size: .9em;
+}
+
+.footer-text a {
+    text-decoration: none;
+    color: #008088;
+    font-weight: bold;
+}
+
+.footer-text a:hover {
+    color: #1e212d;
+}
+
+.footer button:hover {
+    color: white;
+}

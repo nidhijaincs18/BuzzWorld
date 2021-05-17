@@ -1,0 +1,201 @@
+[{
+        "question": "Which of the following option leads to the portability and security of Java?",
+        "option1": "Bytecode is executed by JVM",
+        "option2": "The applet makes the Java code secure and portable",
+        "option3": "Use of exception handling",
+        "option4": "Dynamic binding between objects",
+        "answer": "Bytecode is executed by JVM"
+    },
+    {
+        "question": "Which of the following is not a Java features?",
+        "option1": "Dynamic",
+        "option2": "Architecture Neutral",
+        "option3": "Use of pointers",
+        "option4": "Object-oriented",
+        "answer": "Use of pointers"
+    },
+    {
+        "question": "_____ is used to find and fix bugs in the Java programs.",
+        "option1": "JVM",
+        "option2": "JRE",
+        "option3": "JDK",
+        "option4": "JDB",
+        "answer": "JDB"
+    },
+    {
+        "question": "Which method of the Class.class is used to determine the name of a class represented by the class object as a String?",
+        "option1": "getClass()",
+        "option2": "intern()",
+        "option3": "getName()",
+        "option4": "toString()",
+        "answer": "getName()"
+    },
+    {
+        "question": "Which package contains the Random class?",
+        "option1": "java.util package",
+        "option2": "java.lang package",
+        "option3": "java.awt package",
+        "option4": "java.io package",
+        "answer": "java.util package"
+    },
+    {
+        "question": "Which option is false about the final keyword?",
+        "option1": "A final method cannot be overridden in its subclasses.",
+        "option2": "A final class cannot be extended.",
+        "option3": "A final class cannot extend other classes.",
+        "option4": "A final method can be inherited.",
+        "answer": "A final class cannot extend other classes."
+    },
+    {
+        "question": "Which of these classes are the direct subclasses of the Throwable class?",
+        "option1": "RuntimeException and Error class",
+        "option2": "Exception and VirtualMachineError class",
+        "option3": "Error and Exception class",
+        "option4": "IOException and VirtualMachineError class",
+        "answer": "Error and Exception class"
+    },
+    {
+        "question": "In which memory a String is stored, when we create a string using new operator?",
+        "option1": "Stack",
+        "option2": "String memory",
+        "option3": "Heap memory",
+        "option4": "Random storage space",
+        "answer": "Heap memory"
+    },
+    {
+        "question": "Which of the following is a mutable class in java ?",
+        "option1": "java.lang.String",
+        "option2": "java.lang.Byte",
+        "option3": "java.lang.Short",
+        "option4": "java.lang.StringBuilder",
+        "answer": "java.lang.StringBuilder"
+    },
+    {
+        "question": "How many threads can be executed at a time?",
+        "option1": "Only one thread",
+        "option2": "Multiple threads",
+        "option3": "Only main (main() method) thread",
+        "option4": "Two threads",
+        "answer": "Multiple threads"
+    },
+    {
+        "question": "If a thread goes to sleep",
+        "option1": "It releases all the locks it has.",
+        "option2": "It does not release any locks.",
+        "option3": "It releases half of its locks.",
+        "option4": "It releases all of its lock except one.",
+        "answer": "It does not release any locks."
+    },
+    {
+        "question": "Which of the following is not OOPS concept in Java?",
+        "option1": "Inheritance",
+        "option2": "Encapsulation",
+        "option3": "Compilation",
+        "option4": "Polymorphism",
+        "answer": "Compilation"
+    },
+    {
+        "question": "When does method overloading is determined?",
+        "option1": " At run time",
+        "option2": "At compile time",
+        "option3": "At coding time",
+        "option4": "At execution time",
+        "answer": "At compile time"
+    },
+    {
+        "question": "When Overloading does not occur?",
+        "option1": "More than one method with same name but different method signature and different number or type of parameters",
+        "option2": "More than one method with same name, same signature but different number of signature",
+        "option3": "More than one method with same name, same signature, same number of parameters but different type",
+        "option4": "More than one method with same name, same number of parameters and type but different signature",
+        "answer": "More than one method with same name, same number of parameters and type but different signature"
+    },
+    {
+        "question": "Which concept of Java is achieved by combining methods and attribute into a class?",
+        "option1": "Encapsulation",
+        "option2": "Inheritance",
+        "option3": "Abstraction",
+        "option4": "Polymorphism",
+        "answer": "Encapsulation"
+    },
+    {
+        "question": "What is it called where child object gets killed if parent object is killed?",
+        "option1": "Aggregation",
+        "option2": "Composition",
+        "option3": "Encapsulation",
+        "option4": "Association",
+        "answer": "Composition"
+    },
+    {
+        "question": "Method overriding is comprise of inheritance and polymorphism?",
+        "option1": "Inheritance",
+        "option2": "Polymorphism",
+        "option3": "Both A & B",
+        "option4": "None of the above",
+        "answer": "Both A & B"
+    },
+    {
+        "question": "What is true about private constructor?",
+        "option1": "Private constructor ensures only one instance of a class exist at any point of time",
+        "option2": "Private constructor ensures multiple instances of a class exist at any point of time",
+        "option3": "Private constructor eases the instantiation of a class",
+        "option4": "Private constructor allows creating objects in other classes",
+        "answer": "Private constructor ensures only one instance of a class exist at any point of time"
+    },
+    {
+        "question": "What would be the behaviour if this() and super() used in a method?",
+        "option1": "Runtime error",
+        "option2": "Throws exception",
+        "option3": "Compile time error",
+        "option4": "Runs successfully",
+        "answer": "Compile time error"
+    },
+    {
+        "question": "What is true about Class.getInstance()?",
+        "option1": " Class.getInstance calls the constructor",
+        "option2": "Class.getInstance is same as new operator",
+        "option3": "Class.getInstance needs to have matching constructor",
+        "option4": "Class.getInstance creates object if class does not have any constructor",
+        "answer": "Class.getInstance creates object if class does not have any constructor"
+    },
+    {
+        "question": "What is true about protected constructor?",
+        "option1": "Protected constructor can be called directly",
+        "option2": "Protected constructor can only be called using super()",
+        "option3": "Protected constructor can be used outside package",
+        "option4": "protected constructor can be instantiated even if child is in a different package",
+        "answer": "Protected constructor can only be called using super()"
+    },
+    {
+        "question": "What is not the use of “this” keyword in Java?",
+        "option1": "Passing itself to another method",
+        "option2": "Calling another constructor in constructor chaining",
+        "option3": "Referring to the instance variable when local variable has the same name",
+        "option4": "Passing itself to method of the same class",
+        "answer": "Passing itself to method of the same class"
+    },
+    {
+        "question": "What would be behaviour if the constructor has a return type?",
+        "option1": "Compilation error",
+        "option2": "Runtime error",
+        "option3": "Compilation and runs successfully",
+        "option4": "Only String return type is allowed",
+        "answer": "Compilation error"
+    },
+    {
+        "question": "What is the process of defining two or more methods within same class that have same name but different parameters declaration?",
+        "option1": "method overloading",
+        "option2": "method overriding",
+        "option3": "method hiding",
+        "option4": "none of the mentioned",
+        "answer": "method overloading"
+    },
+    {
+        "question": "What is the process of defining a method in terms of itself, that is a method that calls itself?",
+        "option1": "Polymorphism",
+        "option2": "Inheritance",
+        "option3": "Abstraction",
+        "option4": "Recursion",
+        "answer": "Recursion"
+    }
+]
