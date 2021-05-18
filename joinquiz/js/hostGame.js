@@ -35,8 +35,12 @@ socket.on('gameQuestions', function(data) {
         temp1 = true;
     }
     if (!temp) {
-        total = document.getElementById('totalquesnum').innerHTML = data.totalquesnum;
+        total = data.totalquesnum;
         temp = true;
+    }
+
+    if (temp == true) {
+        document.getElementById('totalquesnum').innerHTML = total;
     }
 
     updateTimer();
@@ -76,6 +80,7 @@ function nextQuestion() {
     if (temp1) {
         document.getElementById('questionnum').innerHTML = ++quesnum;
     }
+
     if (quesnum == total) {
         document.getElementById('nextQButton').innerHTML = "Finish Quiz";
     }

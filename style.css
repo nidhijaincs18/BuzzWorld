@@ -13,6 +13,40 @@ body {
     min-width: 420px;
 }
 
+
+/* width */
+
+::-webkit-scrollbar {
+    width: 10px;
+    transition: .5s;
+}
+
+
+/* Track */
+
+ ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    display: none;
+}
+
+
+/* Handle */
+
+ ::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 3px;
+    display: none;
+    transition: .5s;
+}
+
+
+/* Handle on hover */
+
+ ::-webkit-scrollbar-thumb:hover {
+    background: #008088;
+    display: block;
+}
+
 .heading {
     font-size: 3em;
     text-align: center;
@@ -150,6 +184,7 @@ header {
     margin-bottom: 1.7em;
     color: #008088;
     font-size: 1.2em;
+    transition: .4s;
 }
 
 .working-link-content {
@@ -172,6 +207,7 @@ header {
 
 .active {
     color: #f25287 !important;
+    font-weight: 600;
 }
 
 #working-h1 {

@@ -19,6 +19,38 @@ body {
 }
 
 
+/* width */
+
+::-webkit-scrollbar {
+    width: 10px;
+    transition: .5s;
+}
+
+
+/* Track */
+
+ ::-webkit-scrollbar-track {
+    display: none;
+}
+
+
+/* Handle */
+
+ ::-webkit-scrollbar-thumb {
+    display: none;
+    transition: .5s;
+}
+
+
+/* Handle on hover */
+
+ ::-webkit-scrollbar-thumb:hover {
+    background: #888;
+    border-radius: 3px;
+    display: block;
+}
+
+
 /* Chrome, Safari, Edge, Opera */
 
 input::-webkit-outer-spin-button,

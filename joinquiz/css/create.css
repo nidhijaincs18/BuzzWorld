@@ -29,6 +29,40 @@ body {
     color: white;
 }
 
+
+/* width */
+
+::-webkit-scrollbar {
+    width: 10px;
+    transition: .5s;
+}
+
+
+/* Track */
+
+
+/* 
+ ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+} */
+
+
+/* Handle */
+
+ ::-webkit-scrollbar-thumb {
+    background: whitesmoke;
+    border-radius: 3px;
+    transition: .5s;
+}
+
+
+/* Handle on hover */
+
+ ::-webkit-scrollbar-thumb:hover {
+    background: white;
+    display: block;
+}
+
 #game-list {
     text-align: center;
 }
