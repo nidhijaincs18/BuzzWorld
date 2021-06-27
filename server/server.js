@@ -14,6 +14,7 @@ var server = http.createServer(app);
 var io = socketIO(server);
 var games = new LiveGames();
 var players = new Players();
+var userEmail = "";
 
 //Mongodb setup
 var MongoClient = require('mongodb').MongoClient;
@@ -21,12 +22,11 @@ var mongoose = require('mongoose');
 var url = "mongodb://localhost:27017/";
 
 
-
 app.use(express.static(publicPath));
-
-app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
-
+app.use(express.urlencoded({
+    extended: true
+}))
 
 app.get("/log-in", function(req, res) {
     res.sendFile(publicPath + "/login.html");
@@ -36,34 +36,38 @@ app.get("/register", function(req, res) {
 });
 
 
-// app.post('/login/login', (req, res) => {
-//     console.log(req.body);
-//     if (req.body.email == 'admin@gmail' && req.body.password == '123') {
-//         // to use request.body, you need to import body-parser package
-//         console.log("Successful");
-//         res.redirect(publicPath + "/joinquiz");
+app.post('/log-in-data', (req, res) => {
+    console.log(req.body);
+    userEmail = req.body.email;
+    if (req.body.email === 'admin@gmail' && req.body.password === '123') {
+        console.log("Successful");
+        res.redirect("../../joinquiz");
 
-//     } else {
-//         res.send('Invalid Login');
-//     }
-// });
-// app.post('/registered', urlencodedParser, function(req, res) {
+    } else {
+        res.send('Invalid Login');
+    }
+});
+app.post('/registered', (req, res) => {
+    userEmail = req.body.email;
+    var user = {
+        name: req.body.name,
+        email: req.body.email,
+        password: req.body.password
+    };
+    console.log(req.body);
 
-//       var user = new User({
-//         name: req.body.name,
-//         email: req.body.email,
-//         password: req.body.password
-//       });
+    // MongoClient.connect(url, function(err, db) {
+    //     if (err) throw err;
+    //     var dbo = db.db('buzzworldDB');
+    //     dbo.collection('buzzworld').insertOne(user, function(err, res) {
+    //         if (err) throw err;
 
-//       user.save(function(err) {
-//         if (err) throw err;
-//         console.log('User saved successfully!');
+    //         db.close();
+    //     });
+    // });
+    res.redirect("../../joinquiz");
+});
 
-//       });
-// db.createUser()
-
-
-//   });
 
 //Starting server on port 3000
 server.listen(3000, () => {

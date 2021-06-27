@@ -15,7 +15,7 @@ socket.on('connect', function() {
 
 
 socket.on('noGameFound', function() {
-    window.location.href = '../../joinquiz/'; //Redirect user to 'join game' page 
+    window.location.href = '../../'; //Redirect user to 'join game' page 
 });
 
 socket.on('gameQuestions', function(data) {
