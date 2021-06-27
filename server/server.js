@@ -21,7 +21,6 @@ var MongoClient = require('mongodb').MongoClient;
 var mongoose = require('mongoose');
 var url = "mongodb://localhost:27017/";
 
-
 app.use(express.static(publicPath));
 app.use(express.json());
 app.use(express.urlencoded({
