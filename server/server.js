@@ -46,6 +46,7 @@ app.post('/log-in-data', (req, res) => {
         res.send('Invalid Login');
     }
 });
+
 app.post('/registered', (req, res) => {
     userEmail = req.body.email;
     var user = {
